@@ -135,3 +135,22 @@
 2016-10-31 18:46:53,951 INFO (StartupInfoLogger.java:48)- Starting Application on X6X8-20160714WJ with PID 4840 (F:\spring\springdemo\target\classes started by Administrator in F:\spring\springdemo)
 2016-10-31 18:46:53,954 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
 2016-10-31 18:46:53,954 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2016-10-31 19:25:25,916 INFO (StartupInfoLogger.java:48)- Starting HelloControllerTest on X6X8-20160714WJ with PID 15112 (started by Administrator in F:\spring\springdemo)
+2016-10-31 19:25:25,916 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2016-10-31 19:25:25,917 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2016-10-31 19:26:53,813 INFO (StartupInfoLogger.java:48)- Starting HelloControllerTest on X6X8-20160714WJ with PID 8204 (started by Administrator in F:\spring\springdemo)
+2016-10-31 19:26:53,813 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2016-10-31 19:26:53,814 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2016-10-31 19:26:59,718 INFO (StartupInfoLogger.java:57)- Started HelloControllerTest in 6.307 seconds (JVM running for 7.052)
+2016-10-31 19:28:18,097 INFO (StartupInfoLogger.java:48)- Starting HelloControllerTest on X6X8-20160714WJ with PID 13368 (started by Administrator in F:\spring\springdemo)
+2016-10-31 19:28:18,098 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2016-10-31 19:28:18,100 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2016-10-31 19:28:23,783 INFO (StartupInfoLogger.java:57)- Started HelloControllerTest in 6.099 seconds (JVM running for 6.813)
+2016-10-31 19:32:21,807 INFO (StartupInfoLogger.java:48)- Starting HelloControllerIT on X6X8-20160714WJ with PID 1676 (started by Administrator in F:\spring\springdemo)
+2016-10-31 19:32:21,807 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2016-10-31 19:32:21,807 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2016-10-31 19:32:27,882 INFO (StartupInfoLogger.java:57)- Started HelloControllerIT in 6.469 seconds (JVM running for 7.195)
+2016-10-31 19:33:44,468 INFO (StartupInfoLogger.java:48)- Starting Application on X6X8-20160714WJ with PID 10088 (F:\spring\springdemo\target\classes started by Administrator in F:\spring\springdemo)
+2016-10-31 19:33:44,470 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2016-10-31 19:33:44,471 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2016-10-31 19:33:52,120 INFO (StartupInfoLogger.java:57)- Started Application in 8.057 seconds (JVM running for 8.737)

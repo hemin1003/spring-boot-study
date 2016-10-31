@@ -20,11 +20,16 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 @EnableAutoConfiguration
-public class WebApplication {
+public class Application {
 
-	protected static Logger logger = LoggerFactory.getLogger(WebApplication.class);
+	protected static Logger logger = LoggerFactory.getLogger(Application.class);
 
 	// 使用@Controller实现URL路由
+	@RequestMapping("/")
+	public String greeting() {
+		return "Greetings from Spring Boot!";
+	}
+	
 	@RequestMapping("/index")
 	public String index() {
 		return "index page";
@@ -58,7 +63,7 @@ public class WebApplication {
 	}
 
 	public static void main(String[] args) {
-		SpringApplication.run(WebApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 }
