@@ -1,0 +1,156 @@
+2016-10-31 15:35:49,640 INFO (StartupInfoLogger.java:48)- Starting Application on X6X8-20160714WJ with PID 16196 (F:\spring\springdemo\target\classes started by Administrator in F:\spring\springdemo)
+2016-10-31 15:35:49,644 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2016-10-31 15:35:49,645 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2016-10-31 15:35:52,246 INFO (StartupInfoLogger.java:57)- Started Application in 2.92 seconds (JVM running for 3.364)
+2016-10-31 15:36:06,264 INFO (Application.java:35)- HelloWorld!
+2016-10-31 15:36:09,953 INFO (Application.java:35)- HelloWorld!
+2016-10-31 15:38:04,643 INFO (StartupInfoLogger.java:48)- Starting Application on X6X8-20160714WJ with PID 14340 (F:\spring\springdemo\target\classes started by Administrator in F:\spring\springdemo)
+2016-10-31 15:38:04,646 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2016-10-31 15:38:04,646 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2016-10-31 15:38:07,271 INFO (StartupInfoLogger.java:57)- Started Application in 2.955 seconds (JVM running for 3.374)
+2016-10-31 15:38:12,073 INFO (Application.java:35)- HelloWorld!
+2016-10-31 15:38:17,945 INFO (Application.java:35)- HelloWorld!
+2016-10-31 15:38:22,001 INFO (Application.java:35)- HelloWorld!
+2016-10-31 15:58:50,531 INFO (StartupInfoLogger.java:48)- Starting WebApplication on X6X8-20160714WJ with PID 15716 (F:\spring\springdemo\target\classes started by Administrator in F:\spring\springdemo)
+2016-10-31 15:58:50,534 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2016-10-31 15:58:50,535 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2016-10-31 15:58:54,370 INFO (StartupInfoLogger.java:57)- Started WebApplication in 4.15 seconds (JVM running for 4.553)
+2016-10-31 16:00:16,818 INFO (StartupInfoLogger.java:48)- Starting WebApplication on X6X8-20160714WJ with PID 15472 (F:\spring\springdemo\target\classes started by Administrator in F:\spring\springdemo)
+2016-10-31 16:00:16,821 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2016-10-31 16:00:16,822 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2016-10-31 16:00:20,495 INFO (StartupInfoLogger.java:57)- Started WebApplication in 4.004 seconds (JVM running for 4.475)
+2016-10-31 16:00:53,042 INFO (WebApplication.java:35)- HelloWorld!
+2016-10-31 16:01:38,459 INFO (StartupInfoLogger.java:48)- Starting WebApplication on X6X8-20160714WJ with PID 11512 (F:\spring\springdemo\target\classes started by Administrator in F:\spring\springdemo)
+2016-10-31 16:01:38,461 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2016-10-31 16:01:38,461 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2016-10-31 16:01:41,906 INFO (StartupInfoLogger.java:57)- Started WebApplication in 3.756 seconds (JVM running for 4.15)
+2016-10-31 16:02:13,186 DEBUG (StringRedisController.java:25)- 访问set:key=lxh2,value=1001
+2016-10-31 16:02:29,860 DEBUG (StringRedisController.java:32)- 访问get:key=lxh2
+2016-10-31 16:04:30,855 INFO (StartupInfoLogger.java:48)- Starting WebApplication on X6X8-20160714WJ with PID 9484 (F:\spring\springdemo\target\classes started by Administrator in F:\spring\springdemo)
+2016-10-31 16:04:30,857 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2016-10-31 16:04:30,858 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2016-10-31 16:04:34,299 INFO (StartupInfoLogger.java:57)- Started WebApplication in 3.766 seconds (JVM running for 4.167)
+2016-10-31 16:04:47,608 DEBUG (StringRedisController.java:32)- 访问get:key=name
+2016-10-31 16:05:56,237 INFO (StartupInfoLogger.java:48)- Starting WebApplication on X6X8-20160714WJ with PID 1912 (F:\spring\springdemo\target\classes started by Administrator in F:\spring\springdemo)
+2016-10-31 16:05:56,239 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2016-10-31 16:05:56,240 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2016-10-31 16:05:59,549 INFO (StartupInfoLogger.java:57)- Started WebApplication in 3.621 seconds (JVM running for 4.049)
+2016-10-31 16:06:06,077 DEBUG (StringRedisController.java:32)- 访问get:key=name
+2016-10-31 16:06:23,488 DEBUG (StringRedisController.java:25)- 访问set:key=lxh2,value=1001
+2016-10-31 16:06:32,405 DEBUG (StringRedisController.java:32)- 访问get:key=lxh2
+2016-10-31 16:06:44,182 DEBUG (StringRedisController.java:32)- 访问get:key=name
+2016-10-31 16:07:09,914 DEBUG (StringRedisController.java:32)- 访问get:key=name
+2016-10-31 16:07:20,628 DEBUG (StringRedisController.java:32)- 访问get:key=lxh2
+2016-10-31 16:08:38,585 INFO (StartupInfoLogger.java:48)- Starting WebApplication on X6X8-20160714WJ with PID 12404 (F:\spring\springdemo\target\classes started by Administrator in F:\spring\springdemo)
+2016-10-31 16:08:38,588 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2016-10-31 16:08:38,588 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2016-10-31 16:08:42,251 INFO (StartupInfoLogger.java:57)- Started WebApplication in 3.98 seconds (JVM running for 4.444)
+2016-10-31 16:08:42,523 DEBUG (StringRedisController.java:32)- 访问get:key=lxh2
+2016-10-31 16:08:44,176 DEBUG (StringRedisController.java:32)- 访问get:key=lxh2
+2016-10-31 16:09:00,000 DEBUG (StringRedisController.java:32)- 访问get:key=name
+2016-10-31 16:09:08,101 DEBUG (StringRedisController.java:32)- 访问get:key=lxh2
+2016-10-31 16:09:16,762 DEBUG (StringRedisController.java:32)- 访问get:key=lxh2
+2016-10-31 16:09:20,142 DEBUG (StringRedisController.java:32)- 访问get:key=lxh2
+2016-10-31 16:09:31,515 DEBUG (StringRedisController.java:32)- 访问get:key=lxh2
+2016-10-31 16:10:09,267 INFO (StartupInfoLogger.java:48)- Starting WebApplication on X6X8-20160714WJ with PID 14580 (F:\spring\springdemo\target\classes started by Administrator in F:\spring\springdemo)
+2016-10-31 16:10:09,270 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2016-10-31 16:10:09,270 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2016-10-31 16:10:12,702 INFO (StartupInfoLogger.java:57)- Started WebApplication in 3.746 seconds (JVM running for 4.153)
+2016-10-31 16:10:59,341 DEBUG (StringRedisController.java:25)- 访问set:key=name,value=hemin
+2016-10-31 16:11:07,360 DEBUG (StringRedisController.java:32)- 访问get:key=name
+2016-10-31 16:11:17,075 INFO (StartupInfoLogger.java:48)- Starting WebApplication on X6X8-20160714WJ with PID 920 (F:\spring\springdemo\target\classes started by Administrator in F:\spring\springdemo)
+2016-10-31 16:11:17,086 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2016-10-31 16:11:17,087 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2016-10-31 16:11:21,688 INFO (StartupInfoLogger.java:57)- Started WebApplication in 5.012 seconds (JVM running for 5.835)
+2016-10-31 16:11:24,844 DEBUG (StringRedisController.java:32)- 访问get:key=name
+2016-10-31 16:14:23,612 INFO (StartupInfoLogger.java:48)- Starting WebApplication on X6X8-20160714WJ with PID 15424 (F:\spring\springdemo\target\classes started by Administrator in F:\spring\springdemo)
+2016-10-31 16:14:23,615 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2016-10-31 16:14:23,615 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2016-10-31 16:14:27,036 INFO (StartupInfoLogger.java:57)- Started WebApplication in 3.75 seconds (JVM running for 4.261)
+2016-10-31 16:14:32,567 DEBUG (ObjectRedisController.java:18)- 访问setPerson:id=2,name=lxh2,age=2
+2016-10-31 16:15:19,218 INFO (StartupInfoLogger.java:48)- Starting WebApplication on X6X8-20160714WJ with PID 7516 (F:\spring\springdemo\target\classes started by Administrator in F:\spring\springdemo)
+2016-10-31 16:15:19,220 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2016-10-31 16:15:19,221 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2016-10-31 16:15:23,052 INFO (StartupInfoLogger.java:57)- Started WebApplication in 4.159 seconds (JVM running for 4.579)
+2016-10-31 16:18:04,895 INFO (StartupInfoLogger.java:48)- Starting WebApplication on X6X8-20160714WJ with PID 16064 (F:\spring\springdemo\target\classes started by Administrator in F:\spring\springdemo)
+2016-10-31 16:18:04,897 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2016-10-31 16:18:04,897 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2016-10-31 16:18:08,562 INFO (StartupInfoLogger.java:57)- Started WebApplication in 3.995 seconds (JVM running for 4.398)
+2016-10-31 16:18:42,274 INFO (WebApplication.java:35)- HelloWorld!
+2016-10-31 16:20:13,517 INFO (StartupInfoLogger.java:48)- Starting WebApplication on X6X8-20160714WJ with PID 9124 (F:\spring\springdemo\target\classes started by Administrator in F:\spring\springdemo)
+2016-10-31 16:20:13,520 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2016-10-31 16:20:13,520 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2016-10-31 16:20:16,867 INFO (StartupInfoLogger.java:57)- Started WebApplication in 3.678 seconds (JVM running for 4.08)
+2016-10-31 16:20:21,755 DEBUG (StringRedisController.java:25)- 访问set:key=lxh2,value=1001
+2016-10-31 16:20:46,831 INFO (StartupInfoLogger.java:48)- Starting WebApplication on X6X8-20160714WJ with PID 16172 (F:\spring\springdemo\target\classes started by Administrator in F:\spring\springdemo)
+2016-10-31 16:20:46,833 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2016-10-31 16:20:46,834 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2016-10-31 16:20:50,535 INFO (StartupInfoLogger.java:57)- Started WebApplication in 4.038 seconds (JVM running for 4.441)
+2016-10-31 16:21:10,066 DEBUG (ObjectRedisController.java:18)- 访问setPerson:id=2,name=lxh2,age=2
+2016-10-31 16:21:30,513 INFO (StartupInfoLogger.java:48)- Starting WebApplication on X6X8-20160714WJ with PID 16332 (F:\spring\springdemo\target\classes started by Administrator in F:\spring\springdemo)
+2016-10-31 16:21:30,517 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2016-10-31 16:21:30,518 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2016-10-31 16:21:34,371 INFO (StartupInfoLogger.java:57)- Started WebApplication in 4.212 seconds (JVM running for 4.717)
+2016-10-31 16:22:00,875 INFO (StartupInfoLogger.java:48)- Starting WebApplication on X6X8-20160714WJ with PID 16300 (F:\spring\springdemo\target\classes started by Administrator in F:\spring\springdemo)
+2016-10-31 16:22:00,878 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2016-10-31 16:22:00,879 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2016-10-31 16:22:04,314 INFO (StartupInfoLogger.java:57)- Started WebApplication in 3.749 seconds (JVM running for 4.139)
+2016-10-31 16:47:53,566 INFO (StartupInfoLogger.java:48)- Starting WebApplication on X6X8-20160714WJ with PID 14744 (F:\spring\springdemo\target\classes started by Administrator in F:\spring\springdemo)
+2016-10-31 16:47:53,568 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2016-10-31 16:47:53,569 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2016-10-31 16:47:59,622 INFO (StartupInfoLogger.java:57)- Started WebApplication in 6.403 seconds (JVM running for 6.82)
+2016-10-31 16:48:55,937 INFO (StartupInfoLogger.java:48)- Starting WebApplication on X6X8-20160714WJ with PID 8244 (F:\spring\springdemo\target\classes started by Administrator in F:\spring\springdemo)
+2016-10-31 16:48:55,942 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2016-10-31 16:48:55,945 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2016-10-31 16:49:01,932 INFO (StartupInfoLogger.java:57)- Started WebApplication in 6.344 seconds (JVM running for 6.836)
+2016-10-31 16:49:32,502 DEBUG (DataController.java:24)- save 开始
+2016-10-31 16:49:52,476 DEBUG (DataController.java:24)- save 开始
+2016-10-31 16:49:52,539 DEBUG (DataController.java:26)- save 结束
+2016-10-31 16:50:30,261 DEBUG (DataController.java:24)- save 开始
+2016-10-31 16:50:30,320 DEBUG (DataController.java:26)- save 结束
+2016-10-31 16:50:38,969 DEBUG (DataController.java:54)- sort 开始
+2016-10-31 16:50:44,968 DEBUG (DataController.java:61)- page 开始
+2016-10-31 16:51:07,441 DEBUG (DataController.java:32)- q1 开始
+2016-10-31 16:51:07,442 DEBUG (DataController.java:33)- q1 接收参数address=beijing
+2016-10-31 16:52:21,328 DEBUG (DataController.java:32)- q1 开始
+2016-10-31 16:52:21,332 DEBUG (DataController.java:33)- q1 接收参数address=beijing
+2016-10-31 16:52:33,567 INFO (StartupInfoLogger.java:48)- Starting WebApplication on X6X8-20160714WJ with PID 15952 (F:\spring\springdemo\target\classes started by Administrator in F:\spring\springdemo)
+2016-10-31 16:52:33,569 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2016-10-31 16:52:33,570 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2016-10-31 16:52:39,216 INFO (StartupInfoLogger.java:57)- Started WebApplication in 5.966 seconds (JVM running for 6.374)
+2016-10-31 16:52:49,293 DEBUG (DataController.java:32)- q1 开始
+2016-10-31 16:52:49,293 DEBUG (DataController.java:33)- q1 接收参数address=beijing
+2016-10-31 16:52:57,891 DEBUG (DataController.java:32)- q1 开始
+2016-10-31 16:52:57,892 DEBUG (DataController.java:33)- q1 接收参数address=beijing
+2016-10-31 16:56:40,722 DEBUG (DataController.java:24)- save 开始
+2016-10-31 16:56:40,762 DEBUG (DataController.java:26)- save 结束
+2016-10-31 16:59:33,892 INFO (StartupInfoLogger.java:48)- Starting WebApplication on X6X8-20160714WJ with PID 13652 (F:\spring\springdemo\target\classes started by Administrator in F:\spring\springdemo)
+2016-10-31 16:59:33,895 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2016-10-31 16:59:33,895 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2016-10-31 16:59:39,836 INFO (StartupInfoLogger.java:57)- Started WebApplication in 6.262 seconds (JVM running for 6.679)
+2016-10-31 17:01:15,421 DEBUG (DataController.java:59)- sort 开始
+2016-10-31 18:45:36,065 INFO (StartupInfoLogger.java:48)- Starting Application on X6X8-20160714WJ with PID 11408 (F:\spring\springdemo\target\classes started by Administrator in F:\spring\springdemo)
+2016-10-31 18:45:36,068 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2016-10-31 18:45:36,068 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2016-10-31 18:46:53,951 INFO (StartupInfoLogger.java:48)- Starting Application on X6X8-20160714WJ with PID 4840 (F:\spring\springdemo\target\classes started by Administrator in F:\spring\springdemo)
+2016-10-31 18:46:53,954 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2016-10-31 18:46:53,954 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2016-10-31 19:25:25,916 INFO (StartupInfoLogger.java:48)- Starting HelloControllerTest on X6X8-20160714WJ with PID 15112 (started by Administrator in F:\spring\springdemo)
+2016-10-31 19:25:25,916 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2016-10-31 19:25:25,917 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2016-10-31 19:26:53,813 INFO (StartupInfoLogger.java:48)- Starting HelloControllerTest on X6X8-20160714WJ with PID 8204 (started by Administrator in F:\spring\springdemo)
+2016-10-31 19:26:53,813 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2016-10-31 19:26:53,814 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2016-10-31 19:26:59,718 INFO (StartupInfoLogger.java:57)- Started HelloControllerTest in 6.307 seconds (JVM running for 7.052)
+2016-10-31 19:28:18,097 INFO (StartupInfoLogger.java:48)- Starting HelloControllerTest on X6X8-20160714WJ with PID 13368 (started by Administrator in F:\spring\springdemo)
+2016-10-31 19:28:18,098 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2016-10-31 19:28:18,100 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2016-10-31 19:28:23,783 INFO (StartupInfoLogger.java:57)- Started HelloControllerTest in 6.099 seconds (JVM running for 6.813)
+2016-10-31 19:32:21,807 INFO (StartupInfoLogger.java:48)- Starting HelloControllerIT on X6X8-20160714WJ with PID 1676 (started by Administrator in F:\spring\springdemo)
+2016-10-31 19:32:21,807 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2016-10-31 19:32:21,807 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2016-10-31 19:32:27,882 INFO (StartupInfoLogger.java:57)- Started HelloControllerIT in 6.469 seconds (JVM running for 7.195)
+2016-10-31 19:33:44,468 INFO (StartupInfoLogger.java:48)- Starting Application on X6X8-20160714WJ with PID 10088 (F:\spring\springdemo\target\classes started by Administrator in F:\spring\springdemo)
+2016-10-31 19:33:44,470 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2016-10-31 19:33:44,471 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2016-10-31 19:33:52,120 INFO (StartupInfoLogger.java:57)- Started Application in 8.057 seconds (JVM running for 8.737)

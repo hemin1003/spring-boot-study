@@ -1,0 +1,23 @@
+spring:
+  profiles : dev
+  datasource:
+    name: mydb
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://192.168.234.128:13306/aylson
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    minIdle: 1
+    maxActive: 2
+    initialSize: 1
+    timeBetweenEvictionRunsMillis: 3000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT 'ZTM' FROM DUAL
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false 
+    
+    
+mybatis: 
+  mapperLocations: classpath*:com/minbo/springdemo/web/mybatistest/*.xml
+  typeAliasesPackage: com.minbo.springdemo.web.mybatistest
