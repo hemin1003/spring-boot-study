@@ -1,0 +1,28 @@
+2016-11-01 17:58:22,217 INFO (StartupInfoLogger.java:48)- Starting AppTest on X6X8-20160714WJ with PID 15988 (started by Administrator in F:\spring\springdemo)
+2016-11-01 17:58:22,219 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2016-11-01 17:58:22,219 INFO (SpringApplication.java:663)- The following profiles are active: dev
+2016-11-01 17:58:24,864 INFO (StartupInfoLogger.java:48)- Starting AppTest on X6X8-20160714WJ with PID 15988 (started by Administrator in F:\spring\springdemo)
+2016-11-01 17:58:24,864 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2016-11-01 17:58:24,864 INFO (SpringApplication.java:663)- The following profiles are active: dev
+2016-11-01 18:03:13,905 INFO (StartupInfoLogger.java:48)- Starting AppTest on X6X8-20160714WJ with PID 16340 (started by Administrator in F:\spring\springdemo)
+2016-11-01 18:03:13,906 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2016-11-01 18:03:13,906 INFO (SpringApplication.java:663)- The following profiles are active: dev
+2016-11-01 18:03:15,602 INFO (StartupInfoLogger.java:48)- Starting AppTest on X6X8-20160714WJ with PID 16340 (started by Administrator in F:\spring\springdemo)
+2016-11-01 18:03:15,603 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2016-11-01 18:03:15,603 INFO (SpringApplication.java:663)- The following profiles are active: dev
+2016-11-01 18:05:38,861 INFO (StartupInfoLogger.java:48)- Starting AppTest on X6X8-20160714WJ with PID 14544 (started by Administrator in F:\spring\springdemo)
+2016-11-01 18:05:38,861 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2016-11-01 18:05:38,862 INFO (SpringApplication.java:663)- The following profiles are active: dev
+2016-11-01 18:05:44,200 INFO (StartupInfoLogger.java:57)- Started AppTest in 5.718 seconds (JVM running for 6.384)
+2016-11-01 18:14:44,811 INFO (StartupInfoLogger.java:48)- Starting AppTest on X6X8-20160714WJ with PID 5692 (started by Administrator in F:\spring\springdemo)
+2016-11-01 18:14:44,811 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2016-11-01 18:14:44,812 INFO (SpringApplication.java:663)- The following profiles are active: dev
+2016-11-01 18:14:46,595 INFO (StartupInfoLogger.java:48)- Starting AppTest on X6X8-20160714WJ with PID 5692 (started by Administrator in F:\spring\springdemo)
+2016-11-01 18:14:46,597 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2016-11-01 18:14:46,597 INFO (SpringApplication.java:663)- The following profiles are active: dev
+2016-11-01 18:21:21,312 INFO (StartupInfoLogger.java:48)- Starting AppTest on X6X8-20160714WJ with PID 15208 (started by Administrator in F:\spring\springdemo)
+2016-11-01 18:21:21,313 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2016-11-01 18:21:21,313 INFO (SpringApplication.java:663)- The following profiles are active: dev
+2016-11-01 18:21:23,101 INFO (StartupInfoLogger.java:48)- Starting AppTest on X6X8-20160714WJ with PID 15208 (started by Administrator in F:\spring\springdemo)
+2016-11-01 18:21:23,102 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2016-11-01 18:21:23,102 INFO (SpringApplication.java:663)- The following profiles are active: dev

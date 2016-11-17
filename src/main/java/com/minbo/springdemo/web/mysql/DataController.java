@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * 参考资料：http://blog.csdn.net/lxhjh/article/details/51755035
- * 
  * @author Minbo.He
  */
 @RestController
@@ -24,6 +23,7 @@ public class DataController {
 	@Autowired
 	PersonRepository personRepository;
 
+	//请求地址，例如：http://localhost:8080/save?name=sam&&address=beijing&&age=1
 	@RequestMapping("/save")
 	public Person save(String name, String address, Integer age) {
 		logger.debug("save 开始");
@@ -32,6 +32,7 @@ public class DataController {
 		return p;
 	}
 
+	//请求地址，例如：http://localhost:8080/q1?address=beijing
 	@RequestMapping("/q1")
 	public List<Person> q1(String address) {
 		logger.debug("q1 开始");

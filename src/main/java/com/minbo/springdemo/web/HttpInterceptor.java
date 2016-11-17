@@ -13,7 +13,7 @@ public class HttpInterceptor extends HandlerInterceptorAdapter{
 
 	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
 			throws Exception {
-		System.out.println("This is Interceptor.");
+		System.out.println("This is Interceptor. You can do something here.");
 		return true;
 	}
 	
