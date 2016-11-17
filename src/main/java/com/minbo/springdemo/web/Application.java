@@ -1,14 +1,13 @@
 package com.minbo.springdemo.web;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+
+import com.minbo.springdemo.web.listener.MyApplicationEnvironmentPreparedEventListener;
+import com.minbo.springdemo.web.listener.MyApplicationFailedEventListener;
+import com.minbo.springdemo.web.listener.MyApplicationPreparedEventListener;
+import com.minbo.springdemo.web.listener.MyApplicationReadyEventListener;
+import com.minbo.springdemo.web.listener.MyApplicationStartedEventListener;
 
 /**
  * 参考网址： 
@@ -18,52 +17,19 @@ import org.springframework.web.bind.annotation.RestController;
  * @author Minbo.He
  */
 @SpringBootApplication
-@RestController
-@EnableAutoConfiguration
 public class Application {
-
-	protected static Logger logger = LoggerFactory.getLogger(Application.class);
-
-	// 使用@Controller实现URL路由
-	@RequestMapping("/")
-	public String greeting() {
-		return "Greetings from Spring Boot!";
-	}
-	
-	@RequestMapping("/index")
-	public String index() {
-		return "index page";
-	}
-
-	@RequestMapping("/hello")
-	public String hello() {
-		logger.info("HelloWorld!");
-		return "HelloWorld!";
-	}
-
-	// URL中的变量——PathVariable，能够自动根据参数类型赋值
-	@RequestMapping("/users/{username}")
-	public String userProfile(@PathVariable("username") String username) {
-		return String.format("user %s", username);
-	}
-
-	@RequestMapping("ids/{id}")
-	public String post(@PathVariable("id") int id) {
-		return String.format("post %d", id);
-	}
-
-	@RequestMapping(value = "/login", method = RequestMethod.GET)
-	public String loginGet() {
-		return "Login page";
-	}
-
-	@RequestMapping(value = "/login", method = RequestMethod.POST)
-	public String logetPost() {
-		return "Login request";
-	}
-
+	// 启动入口
 	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
-	}
+		
+		//spring boot实战：在启动过程中增加事件监听机制
+//		SpringApplication app = new SpringApplication(Application.class);
+//		app.addListeners(new MyApplicationStartedEventListener());
+//		app.addListeners(new MyApplicationEnvironmentPreparedEventListener());
+//		app.addListeners(new MyApplicationPreparedEventListener());
+//		app.addListeners(new MyApplicationReadyEventListener());
+//		app.addListeners(new MyApplicationFailedEventListener());
+//		app.run(args);
 
+		 SpringApplication.run(Application.class, args);
+	}
 }
