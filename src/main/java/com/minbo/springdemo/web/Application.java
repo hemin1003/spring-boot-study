@@ -8,6 +8,7 @@ import com.minbo.springdemo.web.listener.MyApplicationFailedEventListener;
 import com.minbo.springdemo.web.listener.MyApplicationPreparedEventListener;
 import com.minbo.springdemo.web.listener.MyApplicationReadyEventListener;
 import com.minbo.springdemo.web.listener.MyApplicationStartedEventListener;
+import org.springframework.boot.builder.SpringApplicationBuilder;
 
 /**
  * 参考网址： 
@@ -30,6 +31,7 @@ public class Application {
 //		app.addListeners(new MyApplicationFailedEventListener());
 //		app.run(args);
 
-		 SpringApplication.run(Application.class, args);
+		SpringApplication.run(Application.class, args);
+		//new SpringApplicationBuilder(Application.class).web(false).run(args);
 	}
 }

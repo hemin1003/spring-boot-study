@@ -1,4 +1,4 @@
-package com.minbo.springdemo.web.config;
+package com.minbo.springdemo.web.resource;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;

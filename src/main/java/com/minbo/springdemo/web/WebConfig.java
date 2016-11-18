@@ -6,7 +6,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 
 /**
  * 拦截器定义
- * @author Administrator
+ * @author Minbo.He
  */
 @Configuration
 public class WebConfig extends WebMvcConfigurerAdapter{

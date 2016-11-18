@@ -7,6 +7,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * Rest用法
+ * @author Minbo.He
+ */
 @RestController
 public class ControllerTest {
 	protected static Logger logger = LoggerFactory.getLogger(ControllerTest.class);
