@@ -3,7 +3,25 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.minbo.springdemo.web.mybatis.xml.CityMapper">
-    <select id="selectCityById" resultType="City">
-        select * from city where id = #{id}
-    </select>
+
+	<insert id="insertXmlCity" parameterType="City">
+		insert into city(name,
+		state, country) values(#{name}, #{state}, #{country})
+	</insert>
+
+	<delete id="deleteXmlCityById">
+		delete from city where id = #{id}
+	</delete>
+
+	<select id="selectXmlCityById" resultType="City">
+		select * from city
+		where id = #{id}
+	</select>
+
+	<update id="updateXmlCityById" parameterType="City">
+		update city set
+		name=#{name}, state=#{state},country=#{country} where
+		id=#{id}
+	</update>
+
 </mapper>

@@ -41,4 +41,35 @@ public class ControllerTestForMybatisAnnotation {
 		logger.info("city=" + city);
 		return city;
 	}
+	
+	//调用例如：http://localhost:8081/mybatis/annotation/addCity?name=hangzhou&state=HZ&country=CH
+	@RequestMapping("/addCity")
+	public String addCity(String name, String state, String country){
+		int result = this.cityMapper.insertCity(name, state, country);
+		return this.result(result);
+	}
+	
+	//调用例如：http://localhost:8081/mybatis/annotation/removeCity?id=4
+	@RequestMapping("/removeCity")
+	public String removeCity(int id){
+		int result = this.cityMapper.deleteCity(id);
+		return this.result(result);
+	}
+	
+	//调用例如：http://localhost:8081/mybatis/annotation/modifyCity?id=2&name=hangzhou&state=HZ&country=CH
+	@RequestMapping("/modifyCity")
+	public String modifyCity(int id, String name, String state, String country){
+		int result = this.cityMapper.updateCity(id, name, state, country);
+		return this.result(result);
+	}
+	
+	private String result(int result){
+		logger.info("result=" + result);
+		if(result==1){
+			return "success";
+		}else if(result==0){
+			return "failure";
+		}
+		return "unknown result";
+	}
 }
