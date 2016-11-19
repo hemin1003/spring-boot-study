@@ -10,7 +10,7 @@ public class Test {
 	*/
 	
 	/**
-	 * 分页插件
+	 * Sql查询分页插件
 	 * 参考资料：http://blog.csdn.net/catoop/article/details/50553714
 	 * Github项目地址： https://github.com/pagehelper/Mybatis-PageHelper
 	 */

@@ -1,0 +1,40 @@
+spring: 
+  datasource: # mysql
+    url: jdbc:mysql://192.168.0.152:3306/aylson?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver  
+  jpa: 
+    hibernate: 
+      ddl-auto: update
+    show-sql: true
+  jackson: 
+    serialization:
+      indent_output: true
+  redis: # redis
+    database: 1
+    host: 127.0.0.1
+    password:   
+    port: 6379
+    pool:
+      max-idle: 8
+      min-idle: 0
+      max-active: 8
+      max-wait: -1
+#spring.redis.sentinel.master=  
+#spring.redis.sentinel.nodes=  
+    timeout: 60000
+
+# tomcat
+server:
+  port: 8080
+
+#自定义属性
+name: zhangsan
+age: 30
+address: hanzhou
+remark: my name is ${name}
+
+# mybatis
+mybatis: 
+  config-location: classpath:mybatis-config.xml
