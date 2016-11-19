@@ -1,7 +1,12 @@
+# 不同的环境使用不同的配置
+# 默认的profile为dev，其他环境通过指定启动参数使用不同的profile，比如：
+# 测试环境：java -jar xxx.jar --spring.profiles.active=test
+# 生产环境：java -jar xxx.jar --spring.profiles.active=prod
 spring: 
+  profiles: 
+    active: dev
   datasource: 
     # mysql
-    url: jdbc:mysql://192.168.0.152:3306/aylson?useUnicode=true&characterEncoding=UTF-8&useSSL=false
     username: root
     password: 123456
     driver-class-name: com.mysql.jdbc.Driver
@@ -54,3 +59,25 @@ remark: my name is ${name}
 # mybatis
 mybatis: 
   config-location: classpath:mybatis-config.xml
+  
+#下面这一行务必不能少，区分不同配置，而且必须是三个字符"-"
+---
+# 开发环境配置
+spring:
+  profiles: dev
+  datasource:
+    url: jdbc:mysql://192.168.0.152:3306/aylson?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+
+---
+# 测试环境配置
+spring:
+  profiles: test
+  datasource:
+    url: jdbc:mysql://192.168.0.152:13306/aylson?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+
+---
+# 生产环境配置
+spring:
+  profiles: prod
+  datasource:
+    url: jdbc:mysql://192.168.0.152:23306/aylson?useUnicode=true&characterEncoding=UTF-8&useSSL=false
