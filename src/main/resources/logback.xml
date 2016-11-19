@@ -3,7 +3,7 @@
 	<!-- %m输出的信息,%p日志级别,%t线程名,%d日期,%c类的全名,,,, -->
 	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
 		<encoder>
-			<pattern>%d %p (%file:%line\)- %m%n</pattern>
+			<pattern>%d [%t] [%c] %p (%file:%line\)- %m%n</pattern>
 			<charset>UTF-8</charset>
 		</encoder>
 	</appender>
@@ -20,7 +20,7 @@
 		</rollingPolicy>
 		<encoder>
 			<pattern>
-				%d %p (%file:%line\)- %m%n
+				%d [%t] [%c] %p (%file:%line\)- %m%n
 			</pattern>
 			<charset>UTF-8</charset> <!-- 此处设置字符集 -->
 		</encoder>

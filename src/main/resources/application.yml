@@ -1,16 +1,30 @@
 spring: 
-  datasource: # mysql
+  datasource: 
+    # mysql
     url: jdbc:mysql://192.168.0.152:3306/aylson?useUnicode=true&characterEncoding=UTF-8&useSSL=false
     username: root
     password: 123456
-    driver-class-name: com.mysql.jdbc.Driver  
+    driver-class-name: com.mysql.jdbc.Driver
+    # 连接池
+    maximum-pool-size: 50
+    max-idle: 10
+    max-wait: 5000
+    min-idle: 10
+    initial-size: 5
+    validation-query: SELECT 1
+    test-on-borrow: false
+    test-while-idle: true
+    time-between-eviction-runs-millis: 18800
+    
   jpa: 
     hibernate: 
       ddl-auto: update
     show-sql: true
+    
   jackson: 
     serialization:
       indent_output: true
+      
   redis: # redis
     database: 1
     host: 127.0.0.1
@@ -18,11 +32,13 @@ spring:
     port: 6379
     pool:
       max-idle: 8
-      min-idle: 0
+      min-idle: 1
       max-active: 8
       max-wait: -1
-#spring.redis.sentinel.master=  
-#spring.redis.sentinel.nodes=  
+      #sentinel: 
+        #master=  
+      #sentinel:
+        #nodes=  
     timeout: 60000
 
 # tomcat
