@@ -1,6 +1,7 @@
 package com.minbo.springdemo.web.demo;
 
 public enum ResultCode {
+	
 	/** 成功 */
 	SUCCESS("200", "成功"),
 

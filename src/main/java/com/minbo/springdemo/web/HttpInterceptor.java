@@ -16,5 +16,4 @@ public class HttpInterceptor extends HandlerInterceptorAdapter{
 		System.out.println("This is Interceptor. You can do something here.");
 		return true;
 	}
-	
 }

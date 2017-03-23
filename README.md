@@ -20,4 +20,4 @@ Devtools配置
 测试集成
 .yml和..properties配置文件说明等
 
-我的博客地址：http://my.csdn.net/hemin1003
+我的博客地址：http://blog.csdn.net/hemin1003

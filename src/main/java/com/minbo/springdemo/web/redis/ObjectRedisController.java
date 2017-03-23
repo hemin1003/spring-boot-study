@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/redis/object")
 public class ObjectRedisController {
+	
 	protected static Logger logger = LoggerFactory.getLogger(ObjectRedisController.class);
 
 	@Autowired
