@@ -45,6 +45,13 @@ spring:
       #sentinel:
         #nodes=  
     timeout: 60000
+  
+  # rabbitmq 
+  rabbitmq: 
+    host: localhost
+    port: 5672
+    username: spring
+    password: 123456
 
 # tomcat
 server:
@@ -59,6 +66,8 @@ remark: my name is ${name}
 # mybatis
 mybatis: 
   config-location: classpath:mybatis-config.xml
+  
+
   
 #下面这一行务必不能少，区分不同配置，而且必须是三个字符"-"
 ---
