@@ -18,5 +18,7 @@
 12. 资源配置读取
 13. 测试集成
 14. *.yml和*.properties配置文件说明等
+15. Web层实现请求映射
+16. security安全验证
 
 我的博客地址：http://blog.csdn.net/hemin1003

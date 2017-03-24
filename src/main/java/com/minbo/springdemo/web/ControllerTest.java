@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author Minbo.He
  */
 @RestController
+@RequestMapping("/rest")
 public class ControllerTest {
 	protected static Logger logger = LoggerFactory.getLogger(ControllerTest.class);
 
