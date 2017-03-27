@@ -20,5 +20,6 @@
 14. *.yml和*.properties配置文件说明等
 15. Web层实现请求映射
 16. security安全验证
+17. rabbitMq集成
 
 我的博客地址：http://blog.csdn.net/hemin1003
