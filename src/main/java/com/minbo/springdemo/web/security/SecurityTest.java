@@ -13,9 +13,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class SecurityTest {
 	protected static Logger logger = LoggerFactory.getLogger(SecurityTest.class);
 
-	@RequestMapping("/index")
+	@RequestMapping("/home")
 	public String index() {
-		return "index";
+		return "home";
 	}
 
     @RequestMapping("/hello")

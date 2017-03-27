@@ -30,28 +30,28 @@ spring:
     serialization:
       indent_output: true
       
-  redis: # redis
-    database: 1
-    host: 127.0.0.1
-    password:   
-    port: 6379
-    pool:
-      max-idle: 8
-      min-idle: 1
-      max-active: 8
-      max-wait: -1
+  #redis: # redis
+    #database: 1
+    #host: 127.0.0.1
+    #password:   
+    #port: 6379
+    #pool:
+      #max-idle: 8
+      #min-idle: 1
+      #max-active: 8
+      #max-wait: -1
       #sentinel: 
         #master=  
       #sentinel:
         #nodes=  
-    timeout: 60000
+    #timeout: 60000
   
   # rabbitmq 
-  rabbitmq: 
-    host: localhost
-    port: 5672
-    username: spring
-    password: 123456
+  #rabbitmq: 
+  #  host: localhost
+  #  port: 5672
+  #  username: spring
+  #  password: 123456
 
 # tomcat
 server:
@@ -67,7 +67,6 @@ remark: my name is ${name}
 mybatis: 
   config-location: classpath:mybatis-config.xml
   
-
   
 #下面这一行务必不能少，区分不同配置，而且必须是三个字符"-"
 ---
@@ -75,18 +74,18 @@ mybatis:
 spring:
   profiles: dev
   datasource:
-    url: jdbc:mysql://192.168.0.152:3306/aylson?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    url: jdbc:mysql://192.168.0.152:33306/AylsonDev?useUnicode=true&characterEncoding=UTF-8&useSSL=false
 
 ---
 # 测试环境配置
 spring:
   profiles: test
   datasource:
-    url: jdbc:mysql://192.168.0.152:13306/aylson?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    url: jdbc:mysql://192.168.0.152:13306/AylsonDev?useUnicode=true&characterEncoding=UTF-8&useSSL=false
 
 ---
 # 生产环境配置
 spring:
   profiles: prod
   datasource:
-    url: jdbc:mysql://192.168.0.152:23306/aylson?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    url: jdbc:mysql://192.168.0.152:23306/AylsonDev?useUnicode=true&characterEncoding=UTF-8&useSSL=false
