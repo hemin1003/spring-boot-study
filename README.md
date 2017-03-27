@@ -22,4 +22,4 @@
 16. security安全验证
 17. rabbitMq集成
 
-我的博客地址：http://blog.csdn.net/hemin1003
+我的博客地址：http://blog.csdn.net/hemin1003/article/category/6527486
