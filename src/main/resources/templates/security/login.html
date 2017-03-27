@@ -8,7 +8,7 @@
 <body>
 	<div th:if="${param.error}">用户名或密码错</div>
 	<div th:if="${param.logout}">您已注销成功</div>
-	<form th:action="@{/login}" method="post">
+	<form th:action="@{/security/login}" method="post">
 		<div>
 			<label> 用户名 : <input type="text" name="username" />
 			</label>

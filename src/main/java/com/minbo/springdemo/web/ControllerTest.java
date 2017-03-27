@@ -12,11 +12,12 @@ import org.springframework.web.bind.annotation.RestController;
  * @author Minbo.He
  */
 @RestController
+@RequestMapping("/rest")
 public class ControllerTest {
 	protected static Logger logger = LoggerFactory.getLogger(ControllerTest.class);
 
 	// 使用@Controller实现URL路由
-	@RequestMapping("/")
+	@RequestMapping("/hello")
 	public String greeting() {
 		return "Greetings from Spring Boot!";
 	}
@@ -24,12 +25,6 @@ public class ControllerTest {
 	@RequestMapping("/index")
 	public String index() {
 		return "index page";
-	}
-
-	@RequestMapping("/hello")
-	public String hello() {
-		logger.info("HelloWorld!");
-		return "HelloWorld!";
 	}
 
 	// URL中的变量——PathVariable，能够自动根据参数类型赋值

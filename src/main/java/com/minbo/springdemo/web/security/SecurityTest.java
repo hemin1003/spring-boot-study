@@ -10,21 +10,22 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @author Minbo.He
  */
 @Controller
+@RequestMapping("/security")
 public class SecurityTest {
 	protected static Logger logger = LoggerFactory.getLogger(SecurityTest.class);
 
 	@RequestMapping("/home")
 	public String index() {
-		return "home";
+		return "security/home";
 	}
 
     @RequestMapping("/hello")
     public String hello() {
-        return "hello";
+        return "security/hello";
     }
     
     @RequestMapping("/login")
     public String login() {
-        return "login";
+        return "security/login";
     }
 }
