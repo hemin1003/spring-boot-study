@@ -21,5 +21,6 @@
 15. Web层实现请求映射
 16. security安全验证
 17. rabbitMq集成
+18. kafka集成
 
 我的博客地址：http://blog.csdn.net/hemin1003/article/category/6527486
