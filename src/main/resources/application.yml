@@ -30,6 +30,17 @@ spring:
     serialization:
       indent_output: true
       
+  kafka: 
+    bootstrap-servers: 192.168.0.152:9092,192.168.0.152:9093
+    consumer: 
+      group-id: myGroup
+    template: 
+      default-topic: my-replicated-topic
+    listener: 
+      concurrency: 3
+    producer: 
+      batch-size: 1000
+      
   #redis: # redis
     #database: 1
     #host: 127.0.0.1
