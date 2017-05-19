@@ -3,13 +3,13 @@
 # 测试环境：java -jar xxx.jar --spring.profiles.active=test
 # 生产环境：java -jar xxx.jar --spring.profiles.active=prod
 spring: 
-  profiles: 
-    active: dev
-  datasource: 
+  #profiles: 
+    #active: dev
+  #datasource: 
     # mysql
-    username: root
-    password: 123456
-    driver-class-name: com.mysql.jdbc.Driver
+    #username: root
+    #password: 123456
+    #driver-class-name: com.mysql.jdbc.Driver
     # 默认使用Tomcat自带连接池
     #maximum-pool-size: 50
     #max-idle: 10
@@ -80,23 +80,23 @@ mybatis:
   
   
 #下面这一行务必不能少，区分不同配置，而且必须是三个字符"-"
----
+#---
 # 开发环境配置
-spring:
-  profiles: dev
-  datasource:
-    url: jdbc:mysql://192.168.0.152:33306/AylsonDev?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+#spring:
+  #profiles: dev
+  #datasource:
+    #url: jdbc:mysql://192.168.0.152:33306/AylsonDev?useUnicode=true&characterEncoding=UTF-8&useSSL=false
 
----
+#---
 # 测试环境配置
-spring:
-  profiles: test
-  datasource:
-    url: jdbc:mysql://192.168.0.152:13306/AylsonDev?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+#spring:
+  #profiles: test
+  #datasource:
+    #url: jdbc:mysql://192.168.0.152:13306/AylsonDev?useUnicode=true&characterEncoding=UTF-8&useSSL=false
 
 ---
 # 生产环境配置
-spring:
-  profiles: prod
-  datasource:
-    url: jdbc:mysql://192.168.0.152:23306/AylsonDev?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+#spring:
+  #profiles: prod
+  #datasource:
+    #url: jdbc:mysql://192.168.0.152:23306/AylsonDev?useUnicode=true&characterEncoding=UTF-8&useSSL=false
