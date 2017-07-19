@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.minbo</groupId>
-	<artifactId>springdemo</artifactId>
+	<artifactId>spring-boot-study</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>springdemo</name>
+	<name>spring-boot-study</name>
 	<description>Demo project for Spring Boot, MVC, Rest</description>
 
 	<properties>
