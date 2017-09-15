@@ -24,3 +24,5 @@
 18. kafka集成
 
 我的博客地址：http://blog.csdn.net/hemin1003/article/category/6527486
+
+项目实战：https://github.com/hemin1003/yfax-parent 已投入生产线上使用
