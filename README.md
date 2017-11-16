@@ -1,4 +1,4 @@
-# springdemo
+# springboot学习实战
 
 项目工具使用的是Eclipse mars+maven3+jdk1.8
 
@@ -23,10 +23,32 @@
 17. rabbitMq集成
 18. kafka集成
 
-我的博客地址：http://blog.csdn.net/hemin1003/article/category/6527486
+<br/>
+# 应用到接口项目实战
 
-项目实战：https://github.com/hemin1003/yfax-parent 已投入生产线上使用
+集成了拦截器，日志处理，mysql，mybatis, oauth2.0, spring secutity等功能，已投入生产线上使用
 
+接口API系统源码：https://github.com/hemin1003/yfax-parent
+
+<br/>
+# 应用到后台管理系统实战
+
+基于SpringMVC4+EasyUI开发的后台管理系统，已投入生产线上使用
+
+体验系统地址：http://182.92.82.188:8280/manage/login.jsp
+
+体验账号/密码，test1001/a12345678
+
+后台系统源码：https://github.com/hemin1003/aylson-parent
+
+<br/>
+# 应用到爬虫项目实战
+
+已实现能爬取腾讯，搜狐，今日头条（单独集成功能）等资讯内容，已投入生产线上使用
+
+JAVA爬虫框架源码：https://github.com/hemin1003/java-spider
+
+<br/>
 ## [关于我](http://heminit.com/about/)
 
 欢迎交流问题，可加QQ469580884，一起探讨交流问题
