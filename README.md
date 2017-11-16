@@ -26,3 +26,9 @@
 我的博客地址：http://blog.csdn.net/hemin1003/article/category/6527486
 
 项目实战：https://github.com/hemin1003/yfax-parent 已投入生产线上使用
+
+## [关于我](http://heminit.com/about/)
+
+欢迎交流问题，可加QQ469580884，一起探讨交流问题
+
+[我的博客地址](http://blog.csdn.net/hemin1003)
