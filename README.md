@@ -24,6 +24,7 @@
 18. kafka集成
 
 <br/>
+
 # 应用到接口项目实战
 
 集成了拦截器，日志处理，mysql，mybatis, oauth2.0, spring secutity等功能，已投入生产线上使用
@@ -31,6 +32,7 @@
 接口API系统源码：https://github.com/hemin1003/yfax-parent
 
 <br/>
+
 # 应用到后台管理系统实战
 
 基于SpringMVC4+EasyUI开发的后台管理系统，已投入生产线上使用
@@ -42,6 +44,7 @@
 后台系统源码：https://github.com/hemin1003/aylson-parent
 
 <br/>
+
 # 应用到爬虫项目实战
 
 已实现能爬取腾讯，搜狐，今日头条（单独集成功能）等资讯内容，已投入生产线上使用
@@ -49,6 +52,7 @@
 JAVA爬虫框架源码：https://github.com/hemin1003/java-spider
 
 <br/>
+
 ## [关于我](http://heminit.com/about/)
 
 欢迎交流问题，可加QQ469580884，一起探讨交流问题
