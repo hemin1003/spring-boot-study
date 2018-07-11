@@ -55,7 +55,7 @@ JAVA爬虫框架源码：https://github.com/hemin1003/java-spider
 
 ## [关于我](http://heminit.com/about/)
 
-欢迎交流问题，可加QQ469580884，一起探讨交流问题
+欢迎交流问题，可加我的个人QQ 469580884，或群号 751925591，一起探讨交流问题
 
 [我的博客地址](http://blog.csdn.net/hemin1003)
 
