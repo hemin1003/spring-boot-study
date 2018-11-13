@@ -22,6 +22,7 @@
 16. security安全验证
 17. rabbitMq集成
 18. kafka集成
+19. rocketMq集成
 
 <br/>
 

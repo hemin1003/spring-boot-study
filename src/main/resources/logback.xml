@@ -25,7 +25,7 @@
 			<charset>UTF-8</charset> <!-- 此处设置字符集 -->
 		</encoder>
 	</appender>
-	<root level="info">
+	<root level="DEBUG">
 		<appender-ref ref="STDOUT" />
 	</root>
 	<logger name="com.minbo" level="DEBUG">
