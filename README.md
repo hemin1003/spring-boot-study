@@ -1,5 +1,14 @@
 # springboot学习实战
 
+## 全新内容
+新增全新springboot2的框架技术点（代码位于当前仓库的spring-boot2-study目录下）
+基于springboot 2.0.6.RELEASE版本实现的代码演示集合，欢迎star/fork
+[新仓库代码位置](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/)
+<br/>
+<br/>
+
+## 当前项目中包含的内容已是旧内容了，后续不再更新，知悉
+
 项目工具使用的是Eclipse mars+maven3+jdk1.8
 
 该项目中包含了以下内容：
