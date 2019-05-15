@@ -10,10 +10,18 @@
 
 ## [sprint-boot2-autotest](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-autotest)
 
-介绍Springboot2自动化单元测试的用法：
+介绍Springboot2【自动化单元测试】的用法：
 
 1. 如何编写测试案例，具体用法有哪些
 2. 单元测试场景：四种业务场景，例如如何进行接口api测试，服务层代码测试，MockMvc用法等
+
+## [spring-boot2-interceptor](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-interceptor)
+
+介绍Springboot2【拦截器】的用法：
+
+1. 拦截器用法详细介绍
+2. 如何把服务层对象注入到拦截器中，调用相关方法
+3. 开启跨域访问功能
 
 <br/>
 <br/>

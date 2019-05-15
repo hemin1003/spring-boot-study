@@ -17,6 +17,7 @@
 
 	<modules>
 		<module>spring-boot2-autotest</module>
+		<module>spring-boot2-spring-boot2-interceptor</module>
 	</modules>
 
 	<parent>
