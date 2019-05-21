@@ -17,7 +17,8 @@
 
 	<modules>
 		<module>spring-boot2-autotest</module>
-		<module>spring-boot2-spring-boot2-interceptor</module>
+		<module>spring-boot2-interceptor</module>
+		<module>spring-boot2-rocketmq</module>
 	</modules>
 
 	<parent>
@@ -114,11 +115,6 @@
 				<version>0.1</version>
 			</dependency>
 			<dependency>
-				<groupId>org.apache.rocketmq</groupId>
-				<artifactId>rocketmq-client</artifactId>
-				<version>4.3.0</version>
-			</dependency>
-			<dependency>
 				<groupId>com.google.code.gson</groupId>
 				<artifactId>gson</artifactId>
 				<version>2.8.5</version>
@@ -145,6 +141,11 @@
 				<groupId>com.alibaba</groupId>
 				<artifactId>druid-spring-boot-starter</artifactId>
 				<version>1.1.10</version>
+			</dependency>
+			<dependency>
+				<groupId>com.github.org-hejianhui</groupId>
+				<artifactId>spring-boot-starter-rocketmq</artifactId>
+				<version>1.0-RELEASE</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>

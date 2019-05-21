@@ -1,0 +1,15 @@
+# tomcat
+server:
+  port: 9090
+spring:
+  # mq service
+  rocketmq: 
+    name-server: localhost:9876
+    producer: 
+      group: my-mq-group
+      send-message-timeout: 86400
+      compress-message-body-threshold: 4096
+      max-message-size: 4194304
+      retry-times-when-send-async-failed: 0
+      retry-next-server: true
+      retry-times-when-send-failed: 2
