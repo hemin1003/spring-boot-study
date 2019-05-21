@@ -1,8 +1,14 @@
-# spring-boot2-interceptor
+# spring-boot2-rocketmq
 
 ## 【RocketMQ】技术点
 
-RocketMq是一个由阿里巴巴开源的消息中间件，脱胎去阿里内部使用的MetaQ，在设计上借鉴了Kafka，其2012年开源，2017年成为Apache顶级项目
+RocketMq是一个由阿里巴巴开源的消息中间件，在设计上借鉴了Kafka，其2012年开源，2017年成为Apache顶级项目。
+
+RocketMQ基础组件：
+
+1. Producer是消息生产者
+2. Consumer是消息消费者
+3. Topic是消息传递中间者，其中存放的是消息逻辑地址
 
 ## 功能介绍
 
