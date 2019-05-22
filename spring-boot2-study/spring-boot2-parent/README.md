@@ -37,7 +37,7 @@
 
 ## [spring-boot2-schedule](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-schedule)
 
-介绍Springboot2【定时器用法】的用法：
+介绍Springboot2【@scheduled定时器】的用法：
 
 1. 定时器计划用法介绍
 2. 开启并行多线程任务两种方式

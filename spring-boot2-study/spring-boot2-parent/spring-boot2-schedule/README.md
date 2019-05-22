@@ -1,6 +1,6 @@
-# spring-boot2-interceptor
+# spring-boot2-schedule
 
-【定时器计划任务】技术点
+【@scheduled定时器】技术点
 
 功能介绍
 
