@@ -19,6 +19,7 @@
 		<module>spring-boot2-autotest</module>
 		<module>spring-boot2-interceptor</module>
 		<module>spring-boot2-rocketmq</module>
+		<module>spring-boot2-schedule</module>
 	</modules>
 
 	<parent>
