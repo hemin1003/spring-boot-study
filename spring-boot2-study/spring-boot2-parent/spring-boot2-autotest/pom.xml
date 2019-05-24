@@ -7,7 +7,7 @@
 		<groupId>com.md</groupId>
 		<artifactId>spring-boot2-parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-		<relativePath /> <!-- lookup parent from repository -->
+		<relativePath>../pom.xml</relativePath>
 	</parent>
 
 	<artifactId>sprint-boot2-autotest</artifactId>
