@@ -5,7 +5,5 @@ server:
     max-threads: 2
     # 最大连接数
     max-connections: 10
-    # URL编码
-    uri-encoding: UTF-8
   # 监听端口
   port: 9090
