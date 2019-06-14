@@ -20,6 +20,7 @@
 		<module>spring-boot2-interceptor</module>
 		<module>spring-boot2-rocketmq</module>
 		<module>spring-boot2-schedule</module>
+		<module>spring-boot2-tomcat</module>
 	</modules>
 
 	<parent>

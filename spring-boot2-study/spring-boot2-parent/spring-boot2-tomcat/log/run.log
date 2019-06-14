@@ -1,0 +1,241 @@
+2019-06-14 16:47:23,976 [main] [com.md.demo.Application] [INFO] (StartupInfoLogger.java:50)- Starting Application on demodeMacBook-Pro-2.local with PID 7215 (/Users/Minbo/Documents/IT/java/code/spring-boot-study/spring-boot2-study/spring-boot2-parent/spring-boot2-tomcat/target/classes started by Minbo in /Users/Minbo/Documents/IT/java/code/spring-boot-study/spring-boot2-study/spring-boot2-parent/spring-boot2-tomcat)
+2019-06-14 16:47:23,990 [main] [com.md.demo.Application] [DEBUG] (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.6.RELEASE, Spring v5.0.10.RELEASE
+2019-06-14 16:47:23,992 [main] [com.md.demo.Application] [INFO] (SpringApplication.java:654)- No active profile set, falling back to default profiles: default
+2019-06-14 16:47:25,864 [main] [com.md.demo.Application] [INFO] (StartupInfoLogger.java:59)- Started Application in 22.397 seconds (JVM running for 23.162)
+2019-06-14 16:48:16,002 [main] [com.md.demo.Application] [INFO] (StartupInfoLogger.java:50)- Starting Application on demodeMacBook-Pro-2.local with PID 7216 (/Users/Minbo/Documents/IT/java/code/spring-boot-study/spring-boot2-study/spring-boot2-parent/spring-boot2-tomcat/target/classes started by Minbo in /Users/Minbo/Documents/IT/java/code/spring-boot-study/spring-boot2-study/spring-boot2-parent/spring-boot2-tomcat)
+2019-06-14 16:48:16,007 [main] [com.md.demo.Application] [DEBUG] (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.6.RELEASE, Spring v5.0.10.RELEASE
+2019-06-14 16:48:16,009 [main] [com.md.demo.Application] [INFO] (SpringApplication.java:654)- No active profile set, falling back to default profiles: default
+2019-06-14 16:48:17,957 [main] [com.md.demo.Application] [INFO] (StartupInfoLogger.java:59)- Started Application in 22.286 seconds (JVM running for 22.887)
+2019-06-14 16:49:38,697 [main] [com.md.demo.Application] [INFO] (StartupInfoLogger.java:50)- Starting Application on demodeMacBook-Pro-2.local with PID 7220 (/Users/Minbo/Documents/IT/java/code/spring-boot-study/spring-boot2-study/spring-boot2-parent/spring-boot2-tomcat/target/classes started by Minbo in /Users/Minbo/Documents/IT/java/code/spring-boot-study/spring-boot2-study/spring-boot2-parent/spring-boot2-tomcat)
+2019-06-14 16:49:38,701 [main] [com.md.demo.Application] [DEBUG] (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.6.RELEASE, Spring v5.0.10.RELEASE
+2019-06-14 16:49:38,703 [main] [com.md.demo.Application] [INFO] (SpringApplication.java:654)- No active profile set, falling back to default profiles: default
+2019-06-14 16:49:40,876 [main] [com.md.demo.Application] [INFO] (StartupInfoLogger.java:59)- Started Application in 22.51 seconds (JVM running for 23.084)
+2019-06-14 16:55:17,672 [main] [com.md.demo.Application] [INFO] (StartupInfoLogger.java:50)- Starting Application on demodeMacBook-Pro-2.local with PID 7229 (/Users/Minbo/Documents/IT/java/code/spring-boot-study/spring-boot2-study/spring-boot2-parent/spring-boot2-tomcat/target/classes started by Minbo in /Users/Minbo/Documents/IT/java/code/spring-boot-study/spring-boot2-study/spring-boot2-parent/spring-boot2-tomcat)
+2019-06-14 16:55:17,674 [main] [com.md.demo.Application] [DEBUG] (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.6.RELEASE, Spring v5.0.10.RELEASE
+2019-06-14 16:55:17,676 [main] [com.md.demo.Application] [INFO] (SpringApplication.java:654)- No active profile set, falling back to default profiles: default
+2019-06-14 16:55:19,380 [main] [com.md.demo.Application] [INFO] (StartupInfoLogger.java:59)- Started Application in 22.017 seconds (JVM running for 22.494)
+2019-06-14 16:55:28,489 [http-nio-8090-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8090/hello, method: GET, params: null
+2019-06-14 16:55:29,919 [http-nio-8090-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8090/hello, method: GET, params: null
+2019-06-14 16:55:30,367 [http-nio-8090-exec-3] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8090/hello, method: GET, params: null
+2019-06-14 16:55:30,767 [http-nio-8090-exec-4] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8090/hello, method: GET, params: null
+2019-06-14 16:55:31,107 [http-nio-8090-exec-5] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8090/hello, method: GET, params: null
+2019-06-14 16:55:31,320 [http-nio-8090-exec-6] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8090/hello, method: GET, params: null
+2019-06-14 16:55:31,542 [http-nio-8090-exec-7] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8090/hello, method: GET, params: null
+2019-06-14 16:55:31,746 [http-nio-8090-exec-8] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8090/hello, method: GET, params: null
+2019-06-14 16:55:31,925 [http-nio-8090-exec-9] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8090/hello, method: GET, params: null
+2019-06-14 16:55:32,094 [http-nio-8090-exec-10] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8090/hello, method: GET, params: null
+2019-06-14 16:55:32,261 [http-nio-8090-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8090/hello, method: GET, params: null
+2019-06-14 16:55:32,448 [http-nio-8090-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8090/hello, method: GET, params: null
+2019-06-14 16:55:32,604 [http-nio-8090-exec-3] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8090/hello, method: GET, params: null
+2019-06-14 16:55:44,727 [http-nio-8090-exec-4] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8090/hello, method: GET, params: null
+2019-06-14 16:55:45,104 [http-nio-8090-exec-5] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8090/hello, method: GET, params: null
+2019-06-14 16:55:47,315 [http-nio-8090-exec-6] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8090/hello, method: GET, params: null
+2019-06-14 16:55:47,750 [http-nio-8090-exec-7] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8090/hello, method: GET, params: null
+2019-06-14 16:55:48,273 [http-nio-8090-exec-8] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8090/hello, method: GET, params: null
+2019-06-14 16:55:48,613 [http-nio-8090-exec-9] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8090/hello, method: GET, params: null
+2019-06-14 16:55:48,984 [http-nio-8090-exec-10] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8090/hello, method: GET, params: null
+2019-06-14 16:55:49,321 [http-nio-8090-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8090/hello, method: GET, params: null
+2019-06-14 16:55:49,695 [http-nio-8090-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8090/hello, method: GET, params: null
+2019-06-14 16:55:50,348 [http-nio-8090-exec-3] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8090/hello, method: GET, params: null
+2019-06-14 16:56:24,795 [main] [com.md.demo.Application] [INFO] (StartupInfoLogger.java:50)- Starting Application on demodeMacBook-Pro-2.local with PID 7231 (/Users/Minbo/Documents/IT/java/code/spring-boot-study/spring-boot2-study/spring-boot2-parent/spring-boot2-tomcat/target/classes started by Minbo in /Users/Minbo/Documents/IT/java/code/spring-boot-study/spring-boot2-study/spring-boot2-parent/spring-boot2-tomcat)
+2019-06-14 16:56:24,799 [main] [com.md.demo.Application] [DEBUG] (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.6.RELEASE, Spring v5.0.10.RELEASE
+2019-06-14 16:56:24,802 [main] [com.md.demo.Application] [INFO] (SpringApplication.java:654)- No active profile set, falling back to default profiles: default
+2019-06-14 16:56:26,982 [main] [com.md.demo.Application] [INFO] (StartupInfoLogger.java:59)- Started Application in 22.507 seconds (JVM running for 23.089)
+2019-06-14 16:56:39,033 [http-nio-8095-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 16:56:39,672 [http-nio-8095-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 16:56:40,125 [http-nio-8095-exec-3] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 16:56:40,505 [http-nio-8095-exec-4] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 16:56:41,096 [http-nio-8095-exec-5] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 16:56:41,224 [http-nio-8095-exec-6] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 16:56:41,477 [http-nio-8095-exec-7] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 16:56:41,646 [http-nio-8095-exec-8] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 16:56:41,805 [http-nio-8095-exec-9] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 16:56:42,479 [http-nio-8095-exec-10] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 16:56:42,501 [http-nio-8095-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 16:56:42,523 [http-nio-8095-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 16:56:42,543 [http-nio-8095-exec-3] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 16:56:42,562 [http-nio-8095-exec-4] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 16:56:42,585 [http-nio-8095-exec-5] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 16:56:42,624 [http-nio-8095-exec-6] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 16:56:42,664 [http-nio-8095-exec-7] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 16:56:43,058 [http-nio-8095-exec-8] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 16:56:43,076 [http-nio-8095-exec-9] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 16:56:43,112 [http-nio-8095-exec-10] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 16:56:43,316 [http-nio-8095-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 16:56:43,586 [http-nio-8095-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 16:56:43,605 [http-nio-8095-exec-3] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 16:56:44,084 [http-nio-8095-exec-4] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 16:56:44,104 [http-nio-8095-exec-5] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 16:56:44,122 [http-nio-8095-exec-6] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 16:59:40,481 [main] [com.md.demo.Application] [INFO] (StartupInfoLogger.java:50)- Starting Application on demodeMacBook-Pro-2.local with PID 7234 (/Users/Minbo/Documents/IT/java/code/spring-boot-study/spring-boot2-study/spring-boot2-parent/spring-boot2-tomcat/target/classes started by Minbo in /Users/Minbo/Documents/IT/java/code/spring-boot-study/spring-boot2-study/spring-boot2-parent/spring-boot2-tomcat)
+2019-06-14 16:59:40,485 [main] [com.md.demo.Application] [DEBUG] (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.6.RELEASE, Spring v5.0.10.RELEASE
+2019-06-14 16:59:40,487 [main] [com.md.demo.Application] [INFO] (SpringApplication.java:654)- No active profile set, falling back to default profiles: default
+2019-06-14 16:59:42,763 [main] [com.md.demo.Application] [INFO] (StartupInfoLogger.java:59)- Started Application in 22.632 seconds (JVM running for 23.271)
+2019-06-14 16:59:45,580 [http-nio-8095-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 16:59:49,810 [http-nio-8095-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 16:59:52,343 [http-nio-8095-exec-3] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 16:59:54,677 [http-nio-8095-exec-4] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 16:59:57,267 [http-nio-8095-exec-5] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:00:46,890 [main] [com.md.demo.Application] [INFO] (StartupInfoLogger.java:50)- Starting Application on demodeMacBook-Pro-2.local with PID 7235 (/Users/Minbo/Documents/IT/java/code/spring-boot-study/spring-boot2-study/spring-boot2-parent/spring-boot2-tomcat/target/classes started by Minbo in /Users/Minbo/Documents/IT/java/code/spring-boot-study/spring-boot2-study/spring-boot2-parent/spring-boot2-tomcat)
+2019-06-14 17:00:46,894 [main] [com.md.demo.Application] [DEBUG] (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.6.RELEASE, Spring v5.0.10.RELEASE
+2019-06-14 17:00:46,896 [main] [com.md.demo.Application] [INFO] (SpringApplication.java:654)- No active profile set, falling back to default profiles: default
+2019-06-14 17:00:48,817 [main] [com.md.demo.Application] [INFO] (StartupInfoLogger.java:59)- Started Application in 22.334 seconds (JVM running for 22.904)
+2019-06-14 17:03:16,764 [http-nio-9090-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:9090/hello, method: GET, params: null
+2019-06-14 17:03:19,171 [http-nio-9090-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:9090/hello, method: GET, params: null
+2019-06-14 17:03:21,378 [http-nio-9090-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:9090/hello, method: GET, params: null
+2019-06-14 17:03:23,558 [http-nio-9090-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:9090/hello, method: GET, params: null
+2019-06-14 17:03:26,017 [http-nio-9090-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:9090/hello, method: GET, params: null
+2019-06-14 17:03:30,809 [http-nio-9090-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:9090/hello, method: GET, params: null
+2019-06-14 17:04:10,481 [main] [com.md.demo.Application] [INFO] (StartupInfoLogger.java:50)- Starting Application on demodeMacBook-Pro-2.local with PID 7236 (/Users/Minbo/Documents/IT/java/code/spring-boot-study/spring-boot2-study/spring-boot2-parent/spring-boot2-tomcat/target/classes started by Minbo in /Users/Minbo/Documents/IT/java/code/spring-boot-study/spring-boot2-study/spring-boot2-parent/spring-boot2-tomcat)
+2019-06-14 17:04:10,484 [main] [com.md.demo.Application] [DEBUG] (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.6.RELEASE, Spring v5.0.10.RELEASE
+2019-06-14 17:04:10,486 [main] [com.md.demo.Application] [INFO] (SpringApplication.java:654)- No active profile set, falling back to default profiles: default
+2019-06-14 17:04:12,592 [main] [com.md.demo.Application] [INFO] (StartupInfoLogger.java:59)- Started Application in 22.512 seconds (JVM running for 23.085)
+2019-06-14 17:04:19,860 [http-nio-9090-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:9090/hello, method: GET, params: null
+2019-06-14 17:04:23,405 [http-nio-9090-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:9090/hello, method: GET, params: null
+2019-06-14 17:04:26,481 [http-nio-9090-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:9090/hello, method: GET, params: null
+2019-06-14 17:04:29,109 [http-nio-9090-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:9090/hello, method: GET, params: null
+2019-06-14 17:05:54,979 [main] [com.md.demo.Application] [INFO] (StartupInfoLogger.java:50)- Starting Application on demodeMacBook-Pro-2.local with PID 7237 (/Users/Minbo/Documents/IT/java/code/spring-boot-study/spring-boot2-study/spring-boot2-parent/spring-boot2-tomcat/target/classes started by Minbo in /Users/Minbo/Documents/IT/java/code/spring-boot-study/spring-boot2-study/spring-boot2-parent/spring-boot2-tomcat)
+2019-06-14 17:05:54,988 [main] [com.md.demo.Application] [DEBUG] (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.6.RELEASE, Spring v5.0.10.RELEASE
+2019-06-14 17:05:54,990 [main] [com.md.demo.Application] [INFO] (SpringApplication.java:654)- No active profile set, falling back to default profiles: default
+2019-06-14 17:05:56,502 [main] [com.md.demo.Application] [INFO] (StartupInfoLogger.java:59)- Started Application in 21.792 seconds (JVM running for 22.231)
+2019-06-14 17:07:43,744 [http-nio-8095-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:07:46,103 [http-nio-8095-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:07:46,125 [http-nio-8095-exec-3] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:07:46,145 [http-nio-8095-exec-4] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:09:07,174 [main] [com.md.demo.Application] [INFO] (StartupInfoLogger.java:50)- Starting Application on demodeMacBook-Pro-2.local with PID 7238 (/Users/Minbo/Documents/IT/java/code/spring-boot-study/spring-boot2-study/spring-boot2-parent/spring-boot2-tomcat/target/classes started by Minbo in /Users/Minbo/Documents/IT/java/code/spring-boot-study/spring-boot2-study/spring-boot2-parent/spring-boot2-tomcat)
+2019-06-14 17:09:07,207 [main] [com.md.demo.Application] [DEBUG] (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.6.RELEASE, Spring v5.0.10.RELEASE
+2019-06-14 17:09:07,209 [main] [com.md.demo.Application] [INFO] (SpringApplication.java:654)- No active profile set, falling back to default profiles: default
+2019-06-14 17:09:09,119 [main] [com.md.demo.Application] [INFO] (StartupInfoLogger.java:59)- Started Application in 22.267 seconds (JVM running for 22.814)
+2019-06-14 17:09:48,262 [http-nio-8095-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:09:56,464 [http-nio-8095-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:10:09,232 [http-nio-8095-exec-3] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:10:15,922 [http-nio-8095-exec-4] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:10:16,109 [http-nio-8095-exec-5] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/error, method: GET, params: null
+2019-06-14 17:10:16,109 [http-nio-8095-exec-5] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:54)- 【实现注入】调用服务层方法代码：demoService.sayHello()=hello from service layer
+2019-06-14 17:10:17,392 [http-nio-8095-exec-6] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:10:17,836 [http-nio-8095-exec-7] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:10:18,075 [http-nio-8095-exec-8] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:10:18,288 [http-nio-8095-exec-9] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:10:18,497 [http-nio-8095-exec-10] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:10:29,359 [http-nio-8095-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:10:29,823 [http-nio-8095-exec-3] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:10:30,018 [http-nio-8095-exec-4] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:10:30,170 [http-nio-8095-exec-5] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:10:30,357 [http-nio-8095-exec-6] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:10:30,527 [http-nio-8095-exec-7] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:10:30,687 [http-nio-8095-exec-8] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:10:30,867 [http-nio-8095-exec-9] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:10:31,044 [http-nio-8095-exec-10] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:10:31,214 [http-nio-8095-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:10:31,392 [http-nio-8095-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:10:31,594 [http-nio-8095-exec-3] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:10:31,771 [http-nio-8095-exec-4] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:10:31,956 [http-nio-8095-exec-5] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:10:32,121 [http-nio-8095-exec-6] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:10:32,280 [http-nio-8095-exec-7] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:10:32,452 [http-nio-8095-exec-8] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:10:32,629 [http-nio-8095-exec-9] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:10:32,792 [http-nio-8095-exec-10] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:10:32,975 [http-nio-8095-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:10:33,138 [http-nio-8095-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:10:33,315 [http-nio-8095-exec-3] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:10:33,492 [http-nio-8095-exec-4] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:10:33,663 [http-nio-8095-exec-5] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:10:33,856 [http-nio-8095-exec-6] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:10:34,026 [http-nio-8095-exec-7] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:10:34,180 [http-nio-8095-exec-8] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:12:43,660 [main] [com.md.demo.Application] [INFO] (StartupInfoLogger.java:50)- Starting Application on demodeMacBook-Pro-2.local with PID 7241 (/Users/Minbo/Documents/IT/java/code/spring-boot-study/spring-boot2-study/spring-boot2-parent/spring-boot2-tomcat/target/classes started by Minbo in /Users/Minbo/Documents/IT/java/code/spring-boot-study/spring-boot2-study/spring-boot2-parent/spring-boot2-tomcat)
+2019-06-14 17:12:43,665 [main] [com.md.demo.Application] [DEBUG] (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.6.RELEASE, Spring v5.0.10.RELEASE
+2019-06-14 17:12:43,668 [main] [com.md.demo.Application] [INFO] (SpringApplication.java:654)- No active profile set, falling back to default profiles: default
+2019-06-14 17:12:46,109 [main] [com.md.demo.Application] [INFO] (StartupInfoLogger.java:59)- Started Application in 22.774 seconds (JVM running for 23.331)
+2019-06-14 17:12:55,045 [http-nio-8095-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:12:55,754 [http-nio-8095-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:12:56,213 [http-nio-8095-exec-3] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:12:57,629 [http-nio-8095-exec-4] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:17:27,846 [main] [com.md.demo.Application] [INFO] (StartupInfoLogger.java:50)- Starting Application on demodeMacBook-Pro-2.local with PID 7246 (/Users/Minbo/Documents/IT/java/code/spring-boot-study/spring-boot2-study/spring-boot2-parent/spring-boot2-tomcat/target/classes started by Minbo in /Users/Minbo/Documents/IT/java/code/spring-boot-study/spring-boot2-study/spring-boot2-parent/spring-boot2-tomcat)
+2019-06-14 17:17:27,850 [main] [com.md.demo.Application] [DEBUG] (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.6.RELEASE, Spring v5.0.10.RELEASE
+2019-06-14 17:17:27,852 [main] [com.md.demo.Application] [INFO] (SpringApplication.java:654)- No active profile set, falling back to default profiles: default
+2019-06-14 17:17:29,797 [main] [com.md.demo.Application] [INFO] (StartupInfoLogger.java:59)- Started Application in 22.267 seconds (JVM running for 22.794)
+2019-06-14 17:17:34,343 [http-nio-8095-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:17:37,775 [http-nio-8095-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:17:38,378 [http-nio-8095-exec-3] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:17:38,936 [http-nio-8095-exec-4] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:17:39,154 [http-nio-8095-exec-5] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:17:39,362 [http-nio-8095-exec-6] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:17:39,544 [http-nio-8095-exec-7] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:17:39,729 [http-nio-8095-exec-8] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:17:39,921 [http-nio-8095-exec-9] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:17:40,092 [http-nio-8095-exec-10] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:17:40,271 [http-nio-8095-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:18:27,478 [main] [com.md.demo.Application] [INFO] (StartupInfoLogger.java:50)- Starting Application on demodeMacBook-Pro-2.local with PID 7249 (/Users/Minbo/Documents/IT/java/code/spring-boot-study/spring-boot2-study/spring-boot2-parent/spring-boot2-tomcat/target/classes started by Minbo in /Users/Minbo/Documents/IT/java/code/spring-boot-study/spring-boot2-study/spring-boot2-parent/spring-boot2-tomcat)
+2019-06-14 17:18:27,483 [main] [com.md.demo.Application] [DEBUG] (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.6.RELEASE, Spring v5.0.10.RELEASE
+2019-06-14 17:18:27,484 [main] [com.md.demo.Application] [INFO] (SpringApplication.java:654)- No active profile set, falling back to default profiles: default
+2019-06-14 17:18:29,416 [main] [com.md.demo.Application] [INFO] (StartupInfoLogger.java:59)- Started Application in 22.278 seconds (JVM running for 22.845)
+2019-06-14 17:18:34,935 [http-nio-8095-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:18:35,174 [http-nio-8095-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:18:35,372 [http-nio-8095-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:18:35,550 [http-nio-8095-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:18:35,737 [http-nio-8095-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:18:35,915 [http-nio-8095-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:18:36,091 [http-nio-8095-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:18:36,270 [http-nio-8095-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:18:36,440 [http-nio-8095-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:18:36,627 [http-nio-8095-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:25:22,795 [main] [com.md.demo.Application] [INFO] (StartupInfoLogger.java:50)- Starting Application on demodeMacBook-Pro-2.local with PID 7258 (/Users/Minbo/Documents/IT/java/code/spring-boot-study/spring-boot2-study/spring-boot2-parent/spring-boot2-tomcat/target/classes started by Minbo in /Users/Minbo/Documents/IT/java/code/spring-boot-study/spring-boot2-study/spring-boot2-parent/spring-boot2-tomcat)
+2019-06-14 17:25:22,799 [main] [com.md.demo.Application] [DEBUG] (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.6.RELEASE, Spring v5.0.10.RELEASE
+2019-06-14 17:25:22,801 [main] [com.md.demo.Application] [INFO] (SpringApplication.java:654)- No active profile set, falling back to default profiles: default
+2019-06-14 17:25:24,797 [main] [com.md.demo.Application] [INFO] (StartupInfoLogger.java:59)- Started Application in 22.337 seconds (JVM running for 23.027)
+2019-06-14 17:25:42,124 [http-nio-8095-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:25:48,760 [http-nio-8095-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:25:49,151 [http-nio-8095-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:25:49,321 [http-nio-8095-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:25:49,514 [http-nio-8095-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:25:49,699 [http-nio-8095-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:25:49,894 [http-nio-8095-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:25:50,091 [http-nio-8095-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:25:50,266 [http-nio-8095-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:25:50,436 [http-nio-8095-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:25:50,629 [http-nio-8095-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:25:50,816 [http-nio-8095-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:25:51,001 [http-nio-8095-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:25:51,171 [http-nio-8095-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:25:51,397 [http-nio-8095-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:25:51,567 [http-nio-8095-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:25:51,802 [http-nio-8095-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:25:52,011 [http-nio-8095-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:25:52,197 [http-nio-8095-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:25:52,400 [http-nio-8095-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:25:52,570 [http-nio-8095-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:25:52,828 [http-nio-8095-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:25:53,000 [http-nio-8095-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:25:53,216 [http-nio-8095-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:25:53,393 [http-nio-8095-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:25:53,556 [http-nio-8095-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:25:53,660 [http-nio-8095-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8095/hello, method: GET, params: null
+2019-06-14 17:27:09,000 [main] [com.md.demo.Application] [INFO] (StartupInfoLogger.java:50)- Starting Application on demodeMacBook-Pro-2.local with PID 7259 (/Users/Minbo/Documents/IT/java/code/spring-boot-study/spring-boot2-study/spring-boot2-parent/spring-boot2-tomcat/target/classes started by Minbo in /Users/Minbo/Documents/IT/java/code/spring-boot-study/spring-boot2-study/spring-boot2-parent/spring-boot2-tomcat)
+2019-06-14 17:27:09,005 [main] [com.md.demo.Application] [DEBUG] (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.6.RELEASE, Spring v5.0.10.RELEASE
+2019-06-14 17:27:09,007 [main] [com.md.demo.Application] [INFO] (SpringApplication.java:654)- No active profile set, falling back to default profiles: default
+2019-06-14 17:27:11,059 [main] [com.md.demo.Application] [INFO] (StartupInfoLogger.java:59)- Started Application in 22.486 seconds (JVM running for 23.158)
+2019-06-14 17:27:29,884 [http-nio-9090-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:9090/hello, method: GET, params: null
+2019-06-14 17:27:30,051 [http-nio-9090-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:9090/error, method: GET, params: null
+2019-06-14 17:27:30,052 [http-nio-9090-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:54)- 【实现注入】调用服务层方法代码：demoService.sayHello()=hello from service layer
+2019-06-14 17:27:31,173 [http-nio-9090-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:9090/hello, method: GET, params: null
+2019-06-14 17:27:31,332 [http-nio-9090-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:9090/hello, method: GET, params: null
+2019-06-14 17:27:31,501 [http-nio-9090-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:9090/hello, method: GET, params: null
+2019-06-14 17:27:31,654 [http-nio-9090-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:9090/hello, method: GET, params: null
+2019-06-14 17:27:31,816 [http-nio-9090-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:9090/hello, method: GET, params: null
+2019-06-14 17:27:31,954 [http-nio-9090-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:9090/hello, method: GET, params: null
+2019-06-14 17:29:29,729 [main] [com.md.demo.Application] [INFO] (StartupInfoLogger.java:50)- Starting Application on demodeMacBook-Pro-2.local with PID 7262 (/Users/Minbo/Documents/IT/java/code/spring-boot-study/spring-boot2-study/spring-boot2-parent/spring-boot2-tomcat/target/classes started by Minbo in /Users/Minbo/Documents/IT/java/code/spring-boot-study/spring-boot2-study/spring-boot2-parent/spring-boot2-tomcat)
+2019-06-14 17:29:29,739 [main] [com.md.demo.Application] [DEBUG] (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.6.RELEASE, Spring v5.0.10.RELEASE
+2019-06-14 17:29:29,741 [main] [com.md.demo.Application] [INFO] (SpringApplication.java:654)- No active profile set, falling back to default profiles: default
+2019-06-14 17:29:31,731 [main] [com.md.demo.Application] [INFO] (StartupInfoLogger.java:59)- Started Application in 22.329 seconds (JVM running for 22.872)
+2019-06-14 17:29:38,334 [http-nio-8090-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8090/hello, method: GET, params: null
+2019-06-14 17:29:38,523 [http-nio-8090-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8090/error, method: GET, params: null
+2019-06-14 17:29:38,524 [http-nio-8090-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:54)- 【实现注入】调用服务层方法代码：demoService.sayHello()=hello from service layer
+2019-06-14 17:29:39,531 [http-nio-8090-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8090/hello, method: GET, params: null
+2019-06-14 17:29:39,699 [http-nio-8090-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8090/hello, method: GET, params: null
+2019-06-14 17:29:39,853 [http-nio-8090-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8090/hello, method: GET, params: null
+2019-06-14 17:29:40,023 [http-nio-8090-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8090/hello, method: GET, params: null
+2019-06-14 17:29:40,178 [http-nio-8090-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8090/hello, method: GET, params: null
+2019-06-14 17:29:40,339 [http-nio-8090-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8090/hello, method: GET, params: null
+2019-06-14 17:29:40,501 [http-nio-8090-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:46)- 请求参数, url: http://localhost:8090/hello, method: GET, params: null

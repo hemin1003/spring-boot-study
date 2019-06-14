@@ -43,6 +43,13 @@
 2. 开启并行多线程任务两种方式
 3. 场景案例分析
 
+## [spring-boot2-tomcat](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-tomcat)
+
+介绍Springboot2【Tomcat容器自定义】的用法：
+
+1. Tomcat容器配置用法，使用.yml文件方式
+2. 设置tomcat的最大连接数和最大并发数
+3. Springboot1和Springboot2版本之间的差异用法
 
 <br/>
 <br/>
