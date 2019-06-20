@@ -8,7 +8,7 @@
 
 # 项目列表
 
-## [sprint-boot2-autotest](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-autotest)
+## [一、sprint-boot2-autotest](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-autotest)
 
 介绍Springboot2【自动化单元测试】的用法：
 
@@ -16,7 +16,7 @@
 2. 单元测试场景：四种业务场景，例如如何进行接口api测试，服务层代码测试，MockMvc用法等
 
 
-## [spring-boot2-interceptor](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-interceptor)
+## [二、spring-boot2-interceptor](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-interceptor)
 
 介绍Springboot2【拦截器】的用法：
 
@@ -25,7 +25,7 @@
 3. 开启跨域访问功能
 
 
-## [spring-boot2-rocketmq](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-rocketmq)
+## [三、spring-boot2-rocketmq](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-rocketmq)
 
 介绍Springboot2【RocketMQ集成】的用法：
 
@@ -35,7 +35,7 @@
 4. 场景案例分析
 
 
-## [spring-boot2-schedule](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-schedule)
+## [四、spring-boot2-schedule](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-schedule)
 
 介绍Springboot2【@scheduled定时器】的用法：
 
@@ -43,13 +43,22 @@
 2. 开启并行多线程任务两种方式
 3. 场景案例分析
 
-## [spring-boot2-tomcat](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-tomcat)
+
+## [五、spring-boot2-tomcat](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-tomcat)
 
 介绍Springboot2【Tomcat容器自定义】的用法：
 
 1. Tomcat容器配置用法，使用.yml文件方式
 2. 设置tomcat的最大连接数和最大并发数
 3. Springboot1和Springboot2版本之间的差异用法
+
+
+## [六、spring-boot2-mysql-mybatis-xml](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-mysql-mybatis-xml)
+
+介绍Springboot2【Mysql和Mybatis+XML用法详解】的用法：
+
+1. Mysql+Datasource集成
+2. Mybatis+XML用法详解
 
 <br/>
 <br/>
