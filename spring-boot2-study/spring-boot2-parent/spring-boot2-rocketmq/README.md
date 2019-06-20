@@ -60,6 +60,9 @@ updateTopic命令主要是三个参数：
 
 [RocketMQ-常见问题FAQ](https://github.com/hemin1003/rocketmq-spring/blob/master/README_zh_CN.md)
 
+## 本项目教程
+
+[RocketMQ集成和场景案例分析](https://blog.csdn.net/hemin1003/article/details/90405506)
 
 ## 该系列教程
 

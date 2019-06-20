@@ -8,13 +8,17 @@
 2. 设置tomcat的最大连接数和最大并发数
 3. Springboot1和Springboot2版本之间的差异用法
 
-## 官方资料
+## 本项目教程
 
-[SpringBoot2配置Tomcat](https://docs.spring.io/spring-boot/docs/2.0.6.RELEASE/reference/html/howto-embedded-web-servers.html#howto-enable-multiple-connectors-in-tomcat)
+[内嵌Tomcat自定义配置用法](https://blog.csdn.net/hemin1003/article/details/91991433)
 
 ## 该系列教程
 
 [SpringBoot2系列](https://blog.csdn.net/hemin1003/article/category/8948532)
+
+## 官方资料
+
+[SpringBoot2配置Tomcat](https://docs.spring.io/spring-boot/docs/2.0.6.RELEASE/reference/html/howto-embedded-web-servers.html#howto-enable-multiple-connectors-in-tomcat)
 
 
 ## 个人说明

@@ -8,6 +8,14 @@
 2. 开启并行多线程任务两种方式
 3. 场景案例分析
 
+## 本项目教程
+
+[@Scheduled定时器用法和场景案例分析](https://blog.csdn.net/hemin1003/article/details/90454462)
+
+## 该系列教程
+
+[SpringBoot2系列](https://blog.csdn.net/hemin1003/article/category/8948532)
+
 ## 场景案例分析
 
 ### 1. 分布式部署下任务重复执行问题
@@ -36,10 +44,6 @@ XXL-JOB是一个轻量级分布式任务调度平台，其核心设计目标是�
 当项目不大、业务逻辑不是很复杂时，利用@Scheduled来执行任务或跑批，一般来说就够用了
 
 随着项目发展壮大，业务越来越复杂时，就可以考虑使用上面提到的推荐平台其中之一了
-
-## 该系列教程
-
-[SpringBoot2系列](https://blog.csdn.net/hemin1003/article/category/8948532)
 
 
 ## 个人说明
