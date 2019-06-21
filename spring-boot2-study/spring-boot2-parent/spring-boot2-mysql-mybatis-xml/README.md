@@ -7,13 +7,17 @@
 1. Mysql+Datasource集成
 2. Mybatis+XML用法详解
 
-## 官方资料
+## 本项目教程
 
-[SpringBoot2配置mysql+datasource](https://docs.spring.io/spring-boot/docs/2.0.9.RELEASE/reference/htmlsingle/#howto-use-yaml-for-external-properties)
+[Mysql和Mybatis+XML用法详解](https://hemin.blog.csdn.net/article/details/93123524)
 
 ## 该系列教程
 
 [SpringBoot2系列](https://blog.csdn.net/hemin1003/article/category/8948532)
+
+## 官方资料
+
+[SpringBoot2配置mysql+datasource](https://docs.spring.io/spring-boot/docs/2.0.9.RELEASE/reference/htmlsingle/#howto-use-yaml-for-external-properties)
 
 
 ## 个人说明
