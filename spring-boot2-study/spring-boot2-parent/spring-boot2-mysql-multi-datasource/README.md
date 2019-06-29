@@ -13,7 +13,7 @@
 
 ## 该系列教程
 
-[SpringBoot2系列](https://hemin.blog.csdn.net/column/info/40170)
+[SpringBoot2系列](https://blog.csdn.net/hemin1003/column/info/40170)
 
 ## 官方资料
 

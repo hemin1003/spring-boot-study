@@ -14,7 +14,7 @@
 
 ## 该系列教程
 
-[SpringBoot2系列](https://blog.csdn.net/hemin1003/article/category/8948532)
+[SpringBoot2系列](https://blog.csdn.net/hemin1003/column/info/40170)
 
 ## 场景案例分析
 
