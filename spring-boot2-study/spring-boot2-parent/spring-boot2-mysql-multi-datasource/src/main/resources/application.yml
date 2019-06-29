@@ -1,0 +1,34 @@
+spring:
+  datasource: 
+    master: 
+      jdbc-url: jdbc:mysql://192.168.1.1:33061/cfdb?useUnicode=true&autoReconnect=true&allowMultiQueries=true&useSSL=false
+      username: root
+      password: 123456
+      driver-class-name: com.mysql.jdbc.Driver
+      # 使用默认hikari连接池
+      type: com.zaxxer.hikari.HikariDataSource
+      minimum-idle: 5
+      maximum-pool-size: 15
+      pool-name: MyHikariCPOfMaster
+      max-lifetime: 1800000
+      connection-timeout: 20000
+      connection-test-query: SELECT 1
+      validation-timeout: 5000
+    slave: 
+      jdbc-url: jdbc:mysql://192.168.1.1:33062/cfdb?useUnicode=true&autoReconnect=true&allowMultiQueries=true&useSSL=false
+      username: root
+      password: 123456
+      driver-class-name: com.mysql.jdbc.Driver
+      # 使用默认hikari连接池
+      type: com.zaxxer.hikari.HikariDataSource
+      minimum-idle: 5
+      maximum-pool-size: 15
+      pool-name: MyHikariCPOfSlave
+      max-lifetime: 1800000
+      connection-timeout: 20000
+      connection-test-query: SELECT 1
+      validation-timeout: 5000
+server:
+  port: 9090
+mybatis: 
+  config-location: classpath:mybatis-config.xml

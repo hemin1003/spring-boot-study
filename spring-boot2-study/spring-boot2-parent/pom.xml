@@ -22,6 +22,7 @@
 		<module>spring-boot2-schedule</module>
 		<module>spring-boot2-tomcat</module>
 		<module>spring-boot2-mysql-mybatis-xml</module>
+		<module>spring-boot2-mysql-multi-datasource</module>
 	</modules>
 
 	<parent>
