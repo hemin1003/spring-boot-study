@@ -26,6 +26,7 @@
 		<module>spring-boot2-mysql-multi-datasource</module>
 		
 		<module>spring-boot2-multi-resources</module>
+		<module>spring-boot2-docker</module>
 	</modules>
 
 	<parent>

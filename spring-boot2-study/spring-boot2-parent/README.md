@@ -75,6 +75,12 @@
 
 1. 多环境配置文件用法
 
+## [九、spring-boot2-docker](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-docker)
+
+介绍Springboot2【Docker集成+容器化部署详解-上篇】的用法：
+
+1. 使用Maven插件构建Docker镜像
+
 
 <br/>
 <br/>
