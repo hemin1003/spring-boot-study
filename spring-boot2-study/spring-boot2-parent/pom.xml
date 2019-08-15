@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
@@ -23,6 +24,8 @@
 		<module>spring-boot2-tomcat</module>
 		<module>spring-boot2-mysql-mybatis-xml</module>
 		<module>spring-boot2-mysql-multi-datasource</module>
+		
+		<module>spring-boot2-multi-resources</module>
 	</modules>
 
 	<parent>
@@ -150,6 +153,18 @@
 				<groupId>com.github.org-hejianhui</groupId>
 				<artifactId>spring-boot-starter-rocketmq</artifactId>
 				<version>1.0-RELEASE</version>
+			</dependency>
+			<!--SpringSecurity -->
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-starter-security</artifactId>
+				<version>${spring-boot-version}</version>
+			</dependency>
+			<!--SpringSecurityOAuth2 -->
+			<dependency>
+				<groupId>org.springframework.security.oauth.boot</groupId>
+				<artifactId>spring-security-oauth2-autoconfigure</artifactId>
+				<version>${spring-boot-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>

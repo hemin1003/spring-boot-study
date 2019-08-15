@@ -1,0 +1,7 @@
+# 多数据源用法，同spring-boot2-mysql-multi-datasource项目一样
+spring:
+   datasource:
+      driverClassName: com.mysql.jdbc.Driver
+      url: jdbc:mysql://dbtest.ytoutiao.net:33062/cfdb?useUnicode=true&autoReconnect=true&allowMultiQueries=true&useSSL=false
+      username: root
+      password: md2019

@@ -1,0 +1,18 @@
+# 不同的环境使用不同的配置，通过指定启动参数使用不同的profile和配置文件，比如：
+# 开发环境：java -jar xxx.jar --spring.profiles.active=dev
+# 生产环境：java -jar xxx.jar --spring.profiles.active=prod
+spring:
+   profiles:
+      active: dev
+      
+# tomcat
+server:
+   port: 9090
+   
+# mybatis
+mybatis:
+   config-location: classpath:mybatis-config.xml
+   
+# logging
+logging:
+   config: classpath:logback-${spring.profiles.active}.xml

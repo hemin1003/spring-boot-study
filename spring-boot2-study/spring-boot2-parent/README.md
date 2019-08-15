@@ -61,12 +61,20 @@
 2. Mybatis+XML用法详解
 
 
-## [7、spring-boot2-mysql-multi-datasource](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-mysql-multi-datasource)
+## [七、spring-boot2-mysql-multi-datasource](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-mysql-multi-datasource)
 
 介绍Springboot2【Mysql多数据源和Hikari用法详解】的用法：
 
 1. Mysql多数据源配置用法
 2. Hikari用法
+
+
+## [八、spring-boot2-multi-resources](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-multi-resources)
+
+介绍Springboot2【多环境配置文件用法】的用法：
+
+1. 多环境配置文件用法
+
 
 <br/>
 <br/>
