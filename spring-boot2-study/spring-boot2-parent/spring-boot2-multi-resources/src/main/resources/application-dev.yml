@@ -2,6 +2,6 @@
 spring:
    datasource:
       driverClassName: com.mysql.jdbc.Driver
-      url: jdbc:mysql://dbtest.ytoutiao.net:33061/cfdb?useUnicode=true&autoReconnect=true&allowMultiQueries=true&useSSL=false
+      url: jdbc:mysql://192.168.0.1:3306/db1?useUnicode=true&autoReconnect=true&allowMultiQueries=true&useSSL=false
       username: root
-      password: md2019
+      password: 123456
