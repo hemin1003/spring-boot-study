@@ -27,6 +27,7 @@
 		
 		<module>spring-boot2-multi-resources</module>
 		<module>spring-boot2-docker</module>
+		<module>spring-boot2-dockerfile</module>
 	</modules>
 
 	<parent>

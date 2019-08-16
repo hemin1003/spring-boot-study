@@ -81,6 +81,12 @@
 
 1. 使用Maven插件构建Docker镜像
 
+## [十、spring-boot2-dockerfile](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-dockerfile)
+
+介绍Springboot2【Docker集成+容器化部署详解-下篇】的用法：
+
+1. 使用Dockerfile构建Docker镜像
+
 
 <br/>
 <br/>
@@ -94,7 +100,7 @@
 
 ## 该系列教程
 
-[SpringBoot2系列](https://hemin.blog.csdn.net/column/info/40170)
+[SpringBoot系列教程-从入门到精通](https://hemin.blog.csdn.net/column/info/40170)
 
 ## 个人说明
 
