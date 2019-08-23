@@ -34,6 +34,7 @@
 		<module>spring-boot2-dubbo-consumer</module>
 		<module>spring-boot2-distributed-id</module>
 		<module>spring-boot2-distributed-id-core-leafid</module>
+		<module>spring-boot2-mysql-druid</module>
 	</modules>
 
 	<parent>

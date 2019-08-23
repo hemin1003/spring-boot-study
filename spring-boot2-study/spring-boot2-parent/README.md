@@ -110,6 +110,16 @@
 
 1. 分布式ID解决方案
 
+## [十四、spring-boot2-mysql-druid](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-mysql-druid)
+
+介绍Springboot2【Druid连接池集成】的用法：
+
+1. Druid连接池集成
+2. Druid Web界面用法
+
+
+
+
 <br/>
 <br/>
 <br/>

@@ -1,0 +1,28 @@
+spring:
+   datasource:
+      driverClassName: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/cfdb?useUnicode=true&autoReconnect=true&allowMultiQueries=true&useSSL=false
+      username: root
+      password: a123456
+      # 使用alibaba的druid连接池、监控
+      type: com.alibaba.druid.pool.DruidDataSource
+      druid:
+         max-active: 10
+         max-wait: 5000
+         min-idle: 5
+         initial-size: 2
+         validation-query: SELECT 1
+         test-on-borrow: false
+         test-while-idle: true
+         time-between-eviction-runs-millis: 18800
+         web-stat-filter:
+            enabled: true
+            exclusions: js,gif,jpg,png,css,ico,/druid/*
+         stat-view-servlet:
+            enabled: true
+            login-username: druid
+            login-password: druid@2019
+server:
+   port: 9090
+mybatis:
+   config-location: classpath:mybatis-config.xml
