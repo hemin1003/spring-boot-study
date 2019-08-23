@@ -1,0 +1,5 @@
+server:
+  port: 9090
+leaf: 
+   zk:
+      list: localhost:3181

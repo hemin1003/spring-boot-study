@@ -32,6 +32,8 @@
 		
 		<module>spring-boot2-dubbo-provider</module>
 		<module>spring-boot2-dubbo-consumer</module>
+		<module>spring-boot2-distributed-id</module>
+		<module>spring-boot2-distributed-id-core-leafid</module>
 	</modules>
 
 	<parent>
