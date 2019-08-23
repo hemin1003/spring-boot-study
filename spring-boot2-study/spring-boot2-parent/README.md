@@ -87,6 +87,13 @@
 
 1. 使用Dockerfile构建Docker镜像
 
+## [十一、spring-boot2-redis](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-redis)
+
+介绍Springboot2【Redis分布式缓存服务集成】的用法：
+
+1. Redis集成，常用api用法
+2. 统一封装工具类（兼容解决中文乱码问题）
+
 
 <br/>
 <br/>

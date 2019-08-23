@@ -1,0 +1,9 @@
+server:
+   port: 9090
+spring:
+   redis:
+      host: localhost
+      port: 7379
+      password: a123456
+      timeout: 10000
+      max-wait: -1
