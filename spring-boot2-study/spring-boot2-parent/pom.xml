@@ -29,6 +29,9 @@
 		<module>spring-boot2-docker</module>
 		<module>spring-boot2-dockerfile</module>
 		<module>spring-boot2-redis</module>
+		
+		<module>spring-boot2-dubbo-provider</module>
+		<module>spring-boot2-dubbo-consumer</module>
 	</modules>
 
 	<parent>

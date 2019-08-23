@@ -94,6 +94,16 @@
 1. Redis集成，常用api用法
 2. 统一封装工具类（兼容解决中文乱码问题）
 
+## [十二、spring-boot2-dubbo-provider](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-dubbo-provider)
+
+介绍Springboot2【Dubbo服务提供者、服务消费者整合/Zookeeper集成】的用法：
+
+1. Dubbo服务提供者、服务消费者整合/Zookeeper集成
+
+[服务提供者-源码](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-dubbo-provider)
+
+[服务消费者-源码](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-dubbo-consumer)
+
 
 <br/>
 <br/>

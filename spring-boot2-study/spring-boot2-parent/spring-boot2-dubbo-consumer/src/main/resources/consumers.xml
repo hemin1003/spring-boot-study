@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://code.alibabatech.com/schema/dubbo
+       http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+       
+	<!-- 配置可参考 http://dubbo.io/User+Guide-zh.htm -->
+	<!-- 消费方应用名，用于计算依赖关系，不是匹配条件，不要与提供方一样 -->
+	<dubbo:application name="spring-boot2-dubbo-consumer" owner="spring-boot2-dubbo-consumer" />
+	
+	<!-- 定义 zookeeper 注册中心地址及协议 -->
+	<dubbo:registry protocol="zookeeper" address="localhost:3181" client="zkclient" />
+	
+	<!-- 生成远程服务代理，可以和本地 bean 一样使用 demoService -->
+	<dubbo:reference id="demoService" interface="com.md.demo.service.DemoService" />
+	
+</beans>
