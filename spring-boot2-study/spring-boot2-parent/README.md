@@ -104,6 +104,11 @@
 
 [服务消费者-源码](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-dubbo-consumer)
 
+## [十三、spring-boot2-distributed-id](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-distributed-id)
+
+介绍Springboot2【全局唯一ID/分布式ID解决方案】的用法：
+
+1. 分布式ID解决方案
 
 <br/>
 <br/>
