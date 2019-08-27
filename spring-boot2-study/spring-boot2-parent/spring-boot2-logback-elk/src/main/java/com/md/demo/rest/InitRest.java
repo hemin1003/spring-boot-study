@@ -20,6 +20,7 @@ public class InitRest {
 	 */
 	@GetMapping("/hello")
 	public String hello() {
-		return "Hello greetings from spring-boot2-logback-elk";
+		logger.info("hello");
+		return "Hello greetings from spring-boot2-logback";
 	}
 }
