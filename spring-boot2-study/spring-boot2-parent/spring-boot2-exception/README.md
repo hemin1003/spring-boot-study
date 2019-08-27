@@ -6,10 +6,6 @@
 
 1. 全局异常处理方式（自定义error请求返回结果）
 
-## 本项目教程
-
-[全局异常处理/Error](https://hemin.blog.csdn.net/article/details/99637714)
-
 ## 该系列教程
 
 [SpringBoot2系列](https://blog.csdn.net/hemin1003/column/info/40170)
