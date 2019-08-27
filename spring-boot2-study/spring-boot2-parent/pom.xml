@@ -37,6 +37,7 @@
 		<module>spring-boot2-mysql-druid</module>
 		
 		<module>spring-boot2-logback</module>
+		<module>spring-boot2-logback-elk</module>
 	</modules>
 
 	<parent>
