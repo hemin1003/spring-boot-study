@@ -35,6 +35,8 @@
 		<module>spring-boot2-distributed-id</module>
 		<module>spring-boot2-distributed-id-core-leafid</module>
 		<module>spring-boot2-mysql-druid</module>
+		
+		<module>spring-boot2-logback</module>
 	</modules>
 
 	<parent>
