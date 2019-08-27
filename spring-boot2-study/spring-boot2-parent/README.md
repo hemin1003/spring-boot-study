@@ -130,7 +130,7 @@
 <br/>
 <br/>
 
-## 该系列教程
+## 该系列文档教程
 
 [SpringBoot系列教程-从入门到精通](https://hemin.blog.csdn.net/column/info/40170)
 

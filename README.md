@@ -6,7 +6,7 @@
 
 基于springboot 2.0.6.RELEASE版本实现的代码演示集合，欢迎star/fork
 
-[新仓库代码位置](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/)
+[新仓库代码位置](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent)
 
 <br/>
 <br/>
