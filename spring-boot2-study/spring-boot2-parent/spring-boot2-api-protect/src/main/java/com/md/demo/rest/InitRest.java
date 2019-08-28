@@ -34,7 +34,7 @@ public class InitRest {
 	}
 
 	/**
-	 * 签名生成秘钥（只有对方知，服务器知），校验请求源合法性，不同源可以设置不同的秘钥
+	 * 利用秘钥生成签名（只有对方知，服务器知），校验请求源合法性，不同源可以设置不同的秘钥
 	 */
 	private static final String API_SECRET_KEY = "996";;
 
