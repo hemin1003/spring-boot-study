@@ -1,10 +1,14 @@
 # spring-boot2-exception
 
-【全局异常处理/Error】技术点
+【全局异常处理】技术点
 
 功能介绍
 
 1. 全局异常处理方式（自定义error请求返回结果）
+
+## 本项目教程
+
+[全局异常处理](https://hemin.blog.csdn.net/article/details/99637714)
 
 ## 该系列教程
 
