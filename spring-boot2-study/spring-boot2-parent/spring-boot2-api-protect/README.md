@@ -14,7 +14,7 @@
 
 ## 本项目教程
 
-[Logback日志框架集成](https://hemin.blog.csdn.net/article/details/99637749)
+[接口防刷机制](https://hemin.blog.csdn.net/article/details/99637749)
 
 ## 该系列教程
 
