@@ -141,6 +141,12 @@
 
 1. 全局异常处理方式（自定义error请求返回结果）
 
+[十九、spring-boot2-api-protect](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-api-protect)
+
+介绍Springboot2【接口防刷机制】的用法：
+
+1. 接口防刷机制
+
 
 
 <br/>

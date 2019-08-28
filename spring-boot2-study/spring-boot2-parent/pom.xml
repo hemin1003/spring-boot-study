@@ -40,6 +40,8 @@
 		<module>spring-boot2-logback-elk</module>
 		<module>spring-boot2-logback-async</module>
 		<module>spring-boot2-exception</module>
+		
+		<module>spring-boot2-api-protect</module>
 	</modules>
 
 	<parent>
