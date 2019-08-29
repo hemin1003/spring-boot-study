@@ -42,6 +42,7 @@
 		<module>spring-boot2-exception</module>
 		
 		<module>spring-boot2-api-protect</module>
+		<module>spring-boot2-distributed-lock</module>
 	</modules>
 
 	<parent>

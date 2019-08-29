@@ -147,6 +147,12 @@
 
 1. 接口防刷机制
 
+[二十、spring-boot2-distributed-lock](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-distributed-lock)
+
+介绍Springboot2【分布式锁用法】的用法：
+
+1. 分布式锁用法（基于Redis实现）
+
 
 
 <br/>
