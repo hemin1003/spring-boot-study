@@ -24,25 +24,27 @@
 		<module>spring-boot2-tomcat</module>
 		<module>spring-boot2-mysql-mybatis-xml</module>
 		<module>spring-boot2-mysql-multi-datasource</module>
-		
+
 		<module>spring-boot2-multi-resources</module>
 		<module>spring-boot2-docker</module>
 		<module>spring-boot2-dockerfile</module>
 		<module>spring-boot2-redis</module>
-		
+
 		<module>spring-boot2-dubbo-provider</module>
 		<module>spring-boot2-dubbo-consumer</module>
 		<module>spring-boot2-distributed-id</module>
 		<module>spring-boot2-distributed-id-core-leafid</module>
 		<module>spring-boot2-mysql-druid</module>
-		
+
 		<module>spring-boot2-logback</module>
 		<module>spring-boot2-logback-elk</module>
 		<module>spring-boot2-logback-async</module>
 		<module>spring-boot2-exception</module>
-		
 		<module>spring-boot2-api-protect</module>
 		<module>spring-boot2-distributed-lock</module>
+
+		<module>spring-boot2-oauth2-jwt-server</module>
+		<module>spring-boot2-oauth2-jwt-resource</module>
 	</modules>
 
 	<parent>
@@ -182,6 +184,11 @@
 				<groupId>org.springframework.security.oauth.boot</groupId>
 				<artifactId>spring-security-oauth2-autoconfigure</artifactId>
 				<version>${spring-boot-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>commons-io</groupId>
+				<artifactId>commons-io</artifactId>
+				<version>2.6</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
