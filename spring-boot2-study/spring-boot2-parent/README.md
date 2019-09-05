@@ -153,6 +153,22 @@
 
 1. 分布式锁用法（基于Redis实现）
 
+[二十一、spring-boot2-oauth2-opaque-server](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-oauth2-opaque-server)
+
+介绍Springboot2【Oauth2+Token详细用法/SpringSecurity】的用法：
+
+[认证服务-源码](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-oauth2-opaque-server)
+
+[资源服务-源码](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-oauth2-opaque-resource)
+
+[二十二、spring-boot2-oauth2-jwt-server](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-oauth2-jwt-server)
+
+介绍Springboot2【Oauth2+JWT集成/SpringSecurity集成】的用法：
+
+[认证服务-源码](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-oauth2-jwt-server)
+
+[资源服务-源码](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-oauth2-jwt-resource)
+
 
 
 <br/>
