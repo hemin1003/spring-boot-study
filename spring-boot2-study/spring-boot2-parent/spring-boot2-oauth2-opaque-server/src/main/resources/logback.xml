@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<!-- %d日期，%t线程名，%c类的全名，%p日志级别，%file文件名，%line行数，%m%n输出的信息 -->
+	<!-- 控制台输出配置 -->
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>%d [%t] [%c] [%p] (%file:%line\)- %m%n</pattern>
+			<charset>UTF-8</charset>
+		</encoder>
+	</appender>
+	<!-- 日志文件配置 -->
+	<appender name="baselog"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<File>log/run.log</File>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>log/run.log.%d.%i</fileNamePattern>
+			<timeBasedFileNamingAndTriggeringPolicy
+				class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<!-- 每一个日志文件最大size -->
+				<maxFileSize>64 MB</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+			<!-- 保留天数 -->
+			<maxHistory>7</maxHistory>
+		</rollingPolicy>
+		<encoder>
+			<pattern>
+				%d [%t] [%c] [%p] (%file:%line\)- %m%n
+			</pattern>
+			<charset>UTF-8</charset> <!-- 此处设置字符集 -->
+		</encoder>
+	</appender>
+	<root level="INFO">
+		<appender-ref ref="STDOUT" />
+	</root>
+	<!-- 定义日志输出的package包名 -->
+	<logger name="com.md" level="DEBUG">
+		<appender-ref ref="baselog" />
+	</logger>
+</configuration>

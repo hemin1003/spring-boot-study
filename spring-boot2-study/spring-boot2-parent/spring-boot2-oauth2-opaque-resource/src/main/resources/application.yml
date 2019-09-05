@@ -1,0 +1,12 @@
+server:
+  port: 9101
+
+security:
+  oauth2:
+    resource:
+      user-info-uri: http://localhost:9001/profile/me
+
+spring:
+  jackson:
+    serialization:
+      INDENT_OUTPUT: true

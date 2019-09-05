@@ -45,6 +45,8 @@
 
 		<module>spring-boot2-oauth2-jwt-server</module>
 		<module>spring-boot2-oauth2-jwt-resource</module>
+		<module>spring-boot2-oauth2-opaque-server</module>
+		<module>spring-boot2-oauth2-opaque-resource</module>
 	</modules>
 
 	<parent>
