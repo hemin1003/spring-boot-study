@@ -169,6 +169,11 @@
 
 [资源服务-源码](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-oauth2-jwt-resource)
 
+[二十三、spring-boot2-mongodb](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-mongodb)
+
+介绍Springboot2【MongoDB集成】的用法：
+
+1. MongoDB集成用法
 
 
 <br/>
