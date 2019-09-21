@@ -175,6 +175,12 @@
 
 [资源服务-源码](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-oauth2-jwt-resource)
 
+[二十四、spring-boot2-swagger](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-swagger)
+
+介绍Springboot2【Swagger集成用法】的用法：
+
+1. Swagger2集成用法
+
 
 
 <br/>
