@@ -1,0 +1,11 @@
+spring: 
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:33061/test?useUnicode=true&autoReconnect=true&allowMultiQueries=true&useSSL=false
+    username: root
+    password: hs2019
+server:
+  port: 9090
+mybatis-plus:
+  # 扫描 mapper.xml
+  mapper-locations: classpath:/mapper/**/*Mapper.xml

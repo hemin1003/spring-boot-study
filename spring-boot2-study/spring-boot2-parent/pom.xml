@@ -50,6 +50,8 @@
 		<module>spring-boot2-oauth2-opaque-resource</module>
 		
 		<module>spring-boot2-swagger</module>
+		<module>spring-boot2-mybatis-plus</module>
+		<module>spring-boot2-sharding-jdbc</module>
 	</modules>
 
 	<parent>
