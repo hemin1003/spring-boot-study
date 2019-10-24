@@ -17,4 +17,9 @@ import org.springframework.stereotype.Service;
 @Service
 public class MyuserServiceImpl extends ServiceImpl<MyuserMapper, Myuser> implements IMyuserService {
 
+	@Override
+	public Myuser getUserByName(String name) {
+		return this.baseMapper.getUserByName(name);
+	}
+
 }

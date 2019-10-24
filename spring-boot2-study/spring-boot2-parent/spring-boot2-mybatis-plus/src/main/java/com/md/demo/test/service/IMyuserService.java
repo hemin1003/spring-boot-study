@@ -12,5 +12,5 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @since 2019-10-25
  */
 public interface IMyuserService extends IService<Myuser> {
-
+	public Myuser getUserByName(String name);
 }

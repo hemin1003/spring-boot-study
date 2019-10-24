@@ -11,6 +11,7 @@ import com.md.demo.test.service.IMyuserService;
 import com.md.demo.util.JsonResult;
 import com.md.demo.util.ResultCode;
 
+import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
 
 /**
@@ -31,7 +32,17 @@ public class MyuserController {
 	@ApiOperation(value = "获得用户列表", notes = "", httpMethod = "GET")
 	@RequestMapping(value = "/listUser")
 	public JsonResult listUser() {
+		// 框架自带的方法
 		List<Myuser> list = this.myuserService.list(null);
 		return new JsonResult(ResultCode.SUCCESS, list);
+	}
+
+	@ApiOperation(value = "根据用户名获得用户记录", notes = "名称不能为空", httpMethod = "GET")
+	@ApiImplicitParam(dataType = "string", name = "name", value = "用户名", required = true)
+	@RequestMapping(value = "/getUserByName")
+	public JsonResult getUserByName(String name) {
+		// 自定义的方法
+		Myuser myuser = this.myuserService.getUserByName(name);
+		return new JsonResult(ResultCode.SUCCESS, myuser);
 	}
 }

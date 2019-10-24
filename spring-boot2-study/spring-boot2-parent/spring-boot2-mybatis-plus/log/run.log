@@ -21,3 +21,18 @@
 2019-10-25 01:12:59,946 [http-nio-9090-exec-10] [com.md.demo.test.dao.MyuserMapper.selectList] [DEBUG] (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id,name,email,age FROM myuser 
 2019-10-25 01:12:59,965 [http-nio-9090-exec-10] [com.md.demo.test.dao.MyuserMapper.selectList] [DEBUG] (BaseJdbcLogger.java:143)- ==> Parameters: 
 2019-10-25 01:12:59,984 [http-nio-9090-exec-10] [com.md.demo.test.dao.MyuserMapper.selectList] [DEBUG] (BaseJdbcLogger.java:143)- <==      Total: 2
+2019-10-25 01:19:04,491 [main] [com.md.demo.Application] [INFO] (StartupInfoLogger.java:50)- Starting Application on MInboHes-MacBook-Pro.local with PID 20289 (/Users/Minbo/Documents/IT/java/code/spring-boot-study/spring-boot2-study/spring-boot2-parent/spring-boot2-mybatis-plus/target/classes started by Minbo in /Users/Minbo/Documents/IT/java/code/spring-boot-study/spring-boot2-study/spring-boot2-parent/spring-boot2-mybatis-plus)
+2019-10-25 01:19:04,497 [main] [com.md.demo.Application] [DEBUG] (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.6.RELEASE, Spring v5.0.10.RELEASE
+2019-10-25 01:19:04,531 [main] [com.md.demo.Application] [INFO] (SpringApplication.java:654)- No active profile set, falling back to default profiles: default
+2019-10-25 01:19:09,222 [main] [com.md.demo.Application] [INFO] (StartupInfoLogger.java:59)- Started Application in 5.394 seconds (JVM running for 6.265)
+2019-10-25 01:19:12,864 [http-nio-9090-exec-1] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:38)- 请求参数, url: http://localhost:9090/doc.html, method: GET, params: null
+2019-10-25 01:19:13,066 [http-nio-9090-exec-2] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:38)- 请求参数, url: http://localhost:9090/swagger-resources, method: GET, params: null
+2019-10-25 01:19:13,141 [http-nio-9090-exec-3] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:38)- 请求参数, url: http://localhost:9090/v2/api-docs-ext, method: GET, params: group=default
+2019-10-25 01:19:13,333 [http-nio-9090-exec-4] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:38)- 请求参数, url: http://localhost:9090/webjars/bycdao-ui/images/api.ico, method: GET, params: null
+2019-10-25 01:19:21,169 [http-nio-9090-exec-5] [com.md.demo.MyHttpInterceptor] [INFO] (MyHttpInterceptor.java:38)- 请求参数, url: http://localhost:9090/test/myuser/getUserByName, method: GET, params: name=minbo
+2019-10-25 01:19:21,592 [http-nio-9090-exec-5] [com.md.demo.test.dao.MyuserMapper.getUserByName] [DEBUG] (BaseJdbcLogger.java:143)- ==>  Preparing: select * from myuser where name = ? 
+2019-10-25 01:19:21,616 [http-nio-9090-exec-5] [com.md.demo.test.dao.MyuserMapper.getUserByName] [DEBUG] (BaseJdbcLogger.java:143)- ==> Parameters: minbo(String)
+2019-10-25 01:19:21,640 [http-nio-9090-exec-5] [com.md.demo.test.dao.MyuserMapper.getUserByName] [DEBUG] (BaseJdbcLogger.java:143)- <==      Total: 1
+2019-10-25 01:22:00,961 [main] [com.md.demo.Application] [INFO] (StartupInfoLogger.java:50)- Starting Application on MInboHes-MacBook-Pro.local with PID 20324 (/Users/Minbo/Documents/IT/java/code/spring-boot-study/spring-boot2-study/spring-boot2-parent/spring-boot2-mybatis-plus/target/classes started by Minbo in /Users/Minbo/Documents/IT/java/code/spring-boot-study/spring-boot2-study/spring-boot2-parent/spring-boot2-mybatis-plus)
+2019-10-25 01:22:00,964 [main] [com.md.demo.Application] [DEBUG] (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.6.RELEASE, Spring v5.0.10.RELEASE
+2019-10-25 01:22:00,965 [main] [com.md.demo.Application] [INFO] (SpringApplication.java:654)- No active profile set, falling back to default profiles: default

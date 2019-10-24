@@ -2,4 +2,10 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.md.demo.test.dao.MyuserMapper">
 
+	<!-- 举一个sql案例 -->
+	<select id="getUserByName"
+		resultType="com.md.demo.test.entity.vo.Myuser">
+		select * from myuser where name = #{name}
+	</select>
+
 </mapper>
