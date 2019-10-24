@@ -107,6 +107,8 @@ public class CodeGenerator {
 		mpg.setTemplateEngine(new FreemarkerTemplateEngine());
 
 		mpg.execute();
+		
+		System.out.println("success");
 	}
 
 	/**

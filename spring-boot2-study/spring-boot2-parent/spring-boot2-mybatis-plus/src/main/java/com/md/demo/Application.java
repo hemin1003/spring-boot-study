@@ -18,7 +18,7 @@ import com.github.xiaoymin.swaggerbootstrapui.annotations.EnableSwaggerBootstrap
  */
 @SpringBootApplication
 @EnableSwaggerBootstrapUI
-@MapperScan("com.md.demo.mysql.dao")
+@MapperScan("com.md.demo.test.dao")
 public class Application {
 
 	public static void main(String[] args) {
