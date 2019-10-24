@@ -39,6 +39,7 @@ public class CodeGenerator {
 		gc.setOutputDir(projectPath + "/src/main/java");
 		gc.setAuthor(scanner("开发者"));
 		gc.setOpen(false);
+		// 是否启动Swagger2
 		gc.setSwagger2(true);
 		// 默认不覆盖，如果文件存在，将不会再生成，配置true就是覆盖
 		gc.setFileOverride(true);
