@@ -37,7 +37,7 @@ public class CodeGenerator {
 		GlobalConfig gc = new GlobalConfig();
 		String projectPath = System.getProperty("user.dir");
 		gc.setOutputDir(projectPath + "/src/main/java");
-		gc.setAuthor("Minbo.He");
+		gc.setAuthor(scanner("开发者"));
 		gc.setOpen(false);
 		gc.setSwagger2(true);
 		// 默认不覆盖，如果文件存在，将不会再生成，配置true就是覆盖
