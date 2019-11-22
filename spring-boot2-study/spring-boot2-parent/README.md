@@ -181,6 +181,12 @@
 
 1. Swagger2集成用法
 
+[二十五、spring-boot2-mybatis-plus](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-mybatis-plus)
+
+介绍Springboot2【Mybatis-Plus快速开发框架用法】的用法：
+
+1. Mybatis-Plus快速开发框架用法
+
 
 
 <br/>
