@@ -52,6 +52,8 @@
 		<module>spring-boot2-swagger</module>
 		<module>spring-boot2-mybatis-plus</module>
 		<module>spring-boot2-sharding-jdbc</module>
+		
+		<module>spring-boot2-swagger-req-params</module>
 	</modules>
 
 	<parent>
@@ -201,6 +203,11 @@
 				<groupId>io.quarkus</groupId>
 				<artifactId>quarkus-development-mode</artifactId>
 				<version>0.22.0</version>
+			</dependency>
+			<dependency>
+				<groupId>com.alibaba</groupId>
+				<artifactId>fastjson</artifactId>
+				<version>1.2.59</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
