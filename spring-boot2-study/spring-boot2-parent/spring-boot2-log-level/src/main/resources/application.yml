@@ -1,0 +1,8 @@
+server:
+   port: 9090
+# log
+management:
+   endpoints:
+      web:
+         exposure:
+            include: loggers
