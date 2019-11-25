@@ -1,5 +1,6 @@
 package com.md.demo.rest;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,6 +20,7 @@ import com.md.demo.vo.UserVO;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import lombok.extern.slf4j.Slf4j;
 
 /**
  * @author Minbo
@@ -26,6 +28,7 @@ import io.swagger.annotations.ApiOperation;
 @RestController
 @RequestMapping("/demo")
 @Api(tags = { "接口-演示" })
+@Slf4j
 public class DemoController extends BaseController {
 
 	@Autowired
@@ -35,14 +38,18 @@ public class DemoController extends BaseController {
 	@PostMapping(value = "/getUserById")
 	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public JsonResult<UserVO> getUserById(@Validated @RequestBody GetByIdDTO dto, BindingResult result,
-			HttpServletResponse response) {
+			HttpServletRequest request, HttpServletResponse response) {
 		// 验证参数合法性
 		JsonResult validResult = super.getJsonResult(dto, result);
 		if (validResult != null) {
 			// 设置http响应码，利于监控工具，不要统一使用200
-			HttpStatusCodeUtil.setHttpCode(response, 4403);
+			HttpStatusCodeUtil.setCode(response, 4403);
 			return validResult;
 		}
+
+		// 获取用户ID
+		String userId = request.getHeader("userId");
+		log.info("获取用户ID，userId={}", userId);
 
 		// 逻辑处理
 		UserVO obj = this.userService.getUserById(dto);

@@ -19,12 +19,11 @@ public class HttpStatusCodeUtil {
 	 * @param response
 	 * @param statusCode
 	 */
-	public static void setHttpCode(HttpServletResponse response, Integer statusCode) {
+	public static void setCode(HttpServletResponse response, Integer statusCode) {
 		try {
-			response.reset();
 			response.setStatus(statusCode);
 		} catch (Exception ex) {
-			log.error(ex.getMessage(), ex);
+			log.error("设置http响应码异常：" + ex.getMessage(), ex);
 		}
 	}
 }

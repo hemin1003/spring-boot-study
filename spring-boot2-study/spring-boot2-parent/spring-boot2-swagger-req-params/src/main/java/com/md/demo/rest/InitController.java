@@ -2,6 +2,7 @@ package com.md.demo.rest;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -33,8 +34,8 @@ public class InitController {
 	@ApiOperation(value = "/getUserName 根据用户id获得用户的姓名", notes = "id不能为空", httpMethod = "GET")
 	@ApiImplicitParam(dataType = "string", name = "userId", value = "用户id", required = true)
 	@RequestMapping(value = "/getUserName")
-	@SuppressWarnings({ "rawtypes"})
-	public JsonResult getUserName(String userId) {
+	@SuppressWarnings({ "rawtypes" })
+	public JsonResult getUserName(@RequestHeader String userId) {
 		String result = "hello " + userId + "，name=张三";
 		return JsonResult.ok(result);
 	}

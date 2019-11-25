@@ -15,6 +15,7 @@ public class GetByIdDTO {
 	private String id;
 
 	// 当配置多个验证字段，验证失败时提示内容会一起返回
+	
 //	@ApiModelProperty(value = "用户名", required = true)
 //	@NotEmpty(message = "用户名不能为空")
 //	private String name;
