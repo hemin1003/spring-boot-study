@@ -39,7 +39,7 @@ public class DemoController extends BaseController {
 	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public JsonResult<UserVO> getUserById(@Validated @RequestBody GetByIdDTO dto, BindingResult result,
 			HttpServletRequest request, HttpServletResponse response) {
-		// 验证参数合法性
+		// 验证参数合法性（@NotEmpty注解）
 		JsonResult validResult = super.getJsonResult(dto, result);
 		if (validResult != null) {
 			// 设置http响应码，利于监控工具，不要统一使用200

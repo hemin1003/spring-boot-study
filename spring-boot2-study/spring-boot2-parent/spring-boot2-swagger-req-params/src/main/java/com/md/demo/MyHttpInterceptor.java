@@ -35,10 +35,9 @@ public class MyHttpInterceptor extends HandlerInterceptorAdapter {
 				queryString += key + "=" + value + "&";
 			}
 		}
-		
+
 		// 不做拦截
-		if (uri.contains("webjars") || uri.contains("/swagger") 
-				|| uri.contains("/csrf") || uri.equals("/") || uri.equals("/error")) {
+		if (uri.contains("webjars") || uri.contains("/swagger") || uri.contains("/csrf") || uri.equals("/")) {
 			return true;
 		}
 
