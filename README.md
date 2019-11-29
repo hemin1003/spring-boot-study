@@ -189,6 +189,13 @@
 
 1. Mybatis-Plus快速开发框架用法
 
+[二十六、spring-boot2-swagger-req-params](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-swagger-req-params)
+
+介绍Springboot2【header/body接口参数+Swagger2集成用法】的用法：
+
+1. header/body接口参数+Swagger2集成用法
+2. 接口常用规范用法
+
 
 <br/>
 
@@ -201,7 +208,6 @@
 [SpringBoot系列教程-从入门到精通](https://hemin.blog.csdn.net/column/info/40170)
 
 
-<br/>
 <br/>
 <br/>
 <br/>
