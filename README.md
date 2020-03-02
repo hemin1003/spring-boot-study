@@ -209,6 +209,12 @@
 
 1. 动态修改日志输出级别用法
 
+[二十九、spring-boot2-wechat-pay](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-wechat-pay)
+
+介绍Springboot2【微信企业支付集成】的用法：
+
+1. 微信企业支付集成
+
 
 <br/>
 

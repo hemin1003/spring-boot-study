@@ -56,9 +56,10 @@
 		
 		<module>spring-boot2-swagger-req-params</module>
 		<module>spring-boot2-swagger-req-params-log</module>
-		<module>spring-boot2-log-level</module>
 		
 		<module>spring-boot2-valid</module>
+		<module>spring-boot2-log-level</module>
+		<module>spring-boot2-wechat-pay</module>
 	</modules>
 
 	<parent>
