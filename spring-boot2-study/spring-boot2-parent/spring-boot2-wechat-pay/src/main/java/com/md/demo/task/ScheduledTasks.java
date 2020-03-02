@@ -34,7 +34,7 @@ public class ScheduledTasks {
 		// TODO 调用打款服务
 //		this.wechatEpayService.wechatBatchPayHtt();
 
-		logger.info("============悦微信打款任务，end===================");
+		logger.info("============微信打款任务，end===================");
 		logger.info("------------------------------------------------");
 	}
 
