@@ -60,6 +60,7 @@
 		<module>spring-boot2-valid</module>
 		<module>spring-boot2-log-level</module>
 		<module>spring-boot2-wechat-pay</module>
+		<module>spring-boot2-alipay</module>
 	</modules>
 
 	<parent>
