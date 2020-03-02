@@ -14,6 +14,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<spring-boot-version>2.0.6.RELEASE</spring-boot-version>
+		<swagger.version>2.9.2</swagger.version>
 	</properties>
 
 	<modules>
@@ -56,6 +57,8 @@
 		<module>spring-boot2-swagger-req-params</module>
 		<module>spring-boot2-swagger-req-params-log</module>
 		<module>spring-boot2-log-level</module>
+		
+		<module>spring-boot2-valid</module>
 	</modules>
 
 	<parent>
@@ -210,6 +213,24 @@
 				<groupId>com.alibaba</groupId>
 				<artifactId>fastjson</artifactId>
 				<version>1.2.59</version>
+			</dependency>
+			<!-- swagger集成 -->
+			<dependency>
+				<groupId>io.springfox</groupId>
+				<artifactId>springfox-swagger2</artifactId>
+				<version>${swagger.version}</version>
+			</dependency>
+			<!-- 默认swagger-ui -->
+			<dependency>
+				<groupId>io.springfox</groupId>
+				<artifactId>springfox-swagger-ui</artifactId>
+				<version>${swagger.version}</version>
+			</dependency>
+			<!-- 更易用第三方swagger-ui组件 -->
+			<dependency>
+				<groupId>com.github.xiaoymin</groupId>
+				<artifactId>swagger-bootstrap-ui</artifactId>
+				<version>1.9.3</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
