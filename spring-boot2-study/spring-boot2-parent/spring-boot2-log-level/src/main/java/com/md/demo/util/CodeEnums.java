@@ -55,19 +55,6 @@ public enum CodeEnums {
     USER_VERSION_NULL(Integer.valueOf(1330004), "请联系管理员配置不存在的版本信息"),
 
 
-    //---------end--公共业务参数----------------
-//    LIANLIAN_QUERY_ACCT_INFO_FAILED(Integer.valueOf(30022), "连连支付查询账户信息失败"),
-//    LIANLIAN_UNLINKED_ACCTIND_APPLY_FAILED(Integer.valueOf(30024), "连连支付个人用户解绑银行卡失败"),
-//    LIANLIAN_QUERY_USER_INFO_FAILED(Integer.valueOf(30026), "连连支付查询用户信息失败"),
-//    LIANLIAN_GET_RANDOM_PASSWORD_FAILED(Integer.valueOf(30028), "连连支付获取随机密码因子失败"),
-//    LIANLIAN_OPENACCT_APPLY_UNACTIVATED_FAILED(Integer.valueOf(30030), "连连支付个人待激活开户申请失败"),
-//    LIANLIAN_OPENACCT_APPLY_FAILED(Integer.valueOf(30032), "连连支付个人开户申请失败"),
-//    LIANLIAN_OPENACCT_VERIFY_FAILED(Integer.valueOf(30034), "连连个人开户验证失败"),
-//    LIANLIAN_QUERY_LINKEDACCT_FAILED(Integer.valueOf(30036), "连连查询绑卡信息失败"),
-//    LIANLIAN_CANCEL_APPLY_FAILED(Integer.valueOf(30038), "连连个人销户失败"),
-//    LIANLIAN_FIND_PASSWORD_APPLY_FAILED(Integer.valueOf(30040), "连连支付个人开户申请失败"),
-//    LIANLIAN_FIND_PASSWORD_VERIFY_FAILED(Integer.valueOf(30042), "连连个人开户验证失败"),
-    
     //--------------业务参数----------------
     USER_SPREAD_NOT_EXIST(Integer.valueOf(10021), "邀请码无效"),
     VALIDATE_CODE_NOT(Integer.valueOf(10104), "验证码不正确"),

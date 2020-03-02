@@ -201,6 +201,12 @@
 1. @Valid注解用法详解
 2. 全局处理器Exception优雅处理参数验证
 
+[二十八、spring-boot2-log-level](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-log-level)
+
+介绍Springboot2【动态修改日志输出级别】的用法：
+
+1. 动态修改日志输出级别用法
+
 
 <br/>
 <br/>

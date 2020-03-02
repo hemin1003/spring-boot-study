@@ -8,7 +8,7 @@
 
 ## 本项目教程
 
-[动态修改日志输出级别用法](xxx)
+[动态修改日志输出级别用法](https://hemin.blog.csdn.net/article/details/103241044)
 
 ## 该系列教程
 
