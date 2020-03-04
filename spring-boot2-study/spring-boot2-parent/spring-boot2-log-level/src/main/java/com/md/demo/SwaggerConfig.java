@@ -23,13 +23,10 @@ public class SwaggerConfig {
 	 */
 	@Bean
 	public Docket createRestApi() {
-		return new Docket(DocumentationType.SWAGGER_2)
-				.apiInfo(apiInfo()).select()
-				//如果不想将所有的接口都通过swagger管理的话，可以将RequestHandlerSelectors.any()修改为RequestHandlerSelectors.basePackage()
-				//.apis(RequestHandlerSelectors.any())
-				.apis(RequestHandlerSelectors.basePackage("com.md"))
-				.paths(PathSelectors.any())
-				.build();
+		return new Docket(DocumentationType.SWAGGER_2).apiInfo(apiInfo()).select()
+				// 如果不想将所有的接口都通过swagger管理的话，可以将RequestHandlerSelectors.any()修改为RequestHandlerSelectors.basePackage()
+				// .apis(RequestHandlerSelectors.any())
+				.apis(RequestHandlerSelectors.basePackage("com.md")).paths(PathSelectors.any()).build();
 	}
 
 	@SuppressWarnings("deprecation")
