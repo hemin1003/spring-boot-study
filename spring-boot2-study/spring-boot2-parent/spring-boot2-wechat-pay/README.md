@@ -8,7 +8,7 @@
 
 ## 本项目教程
 
-[微信企业支付集成](https://hemin.blog.csdn.net/article/details/104605815)
+[微信企业支付集成（最快五分钟集成）](https://hemin.blog.csdn.net/article/details/104605815)
 
 ## 该系列教程
 

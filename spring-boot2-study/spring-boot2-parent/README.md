@@ -211,7 +211,7 @@
 
 介绍Springboot2【微信企业支付集成】的用法：
 
-1. 微信企业支付集成
+1. 微信企业支付集成（最快五分钟集成）
 
 [三十、spring-boot2-alipay](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-alipay)
 
