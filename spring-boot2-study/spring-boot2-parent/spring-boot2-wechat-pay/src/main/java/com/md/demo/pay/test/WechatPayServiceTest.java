@@ -6,6 +6,12 @@ import org.springframework.stereotype.Service;
 
 import com.md.demo.pay.utils.variation.PayServiceUtils;
 
+/**
+ * 本地测试类
+ * 
+ * @author Minbo
+ *
+ */
 @Service
 public class WechatPayServiceTest {
 

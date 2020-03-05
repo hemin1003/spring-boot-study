@@ -50,7 +50,7 @@ public class WechatPayServiceImpl implements IWechatPayService {
 				// 订单ID
 				String orderId = objInfo.getOrderId();
 
-//				// 获得appId的配置，可以把支付信息等做成可配置项
+//				// 获得appId的配置，可以把支付信息等做成DB可配置项
 //				PayAppConfig sdkPayAppConfig = this.sdkPayAppConfigService.getById(objInfo.getAppId());
 //				String appIdName = sdkPayAppConfig.getProductName() + "的红包";
 //				String wxAppId = sdkPayAppConfig.getWxAppId();

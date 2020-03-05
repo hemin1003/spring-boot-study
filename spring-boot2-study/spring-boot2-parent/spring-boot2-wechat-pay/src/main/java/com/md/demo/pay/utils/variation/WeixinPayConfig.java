@@ -5,7 +5,7 @@ package com.md.demo.pay.utils.variation;
  */
 public class WeixinPayConfig {
 
-//	// APPID（可固化，也可以动态变）
+//	// APPID（可固化，也可以动态变，DB中可同时记录AppID）
 //	public final static String APPID = "xxxxxx";
 
 	// 公众平台商户ID
