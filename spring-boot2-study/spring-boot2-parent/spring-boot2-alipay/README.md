@@ -1,14 +1,14 @@
 # spring-boot2-alipay
 
-【支付宝企业支付集成】技术点
+【支付宝企业支付集成（五分钟集成）】技术点
 
 功能介绍
 
-1. 支付宝企业支付集成
+1. 支付宝企业支付集成（五分钟集成）
 
 ## 本项目教程
 
-[支付宝企业支付集成](https://hemin.blog.csdn.net/article/details/104605826)
+[支付宝企业支付集成（五分钟集成）](https://hemin.blog.csdn.net/article/details/104605826)
 
 ## 该系列教程
 

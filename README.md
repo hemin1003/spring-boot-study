@@ -211,15 +211,15 @@
 
 [二十九、spring-boot2-wechat-pay](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-wechat-pay)
 
-介绍Springboot2【微信企业支付集成】的用法：
+介绍Springboot2【微信企业支付集成（五分钟集成）】的用法：
 
-1. 微信企业支付集成（最快五分钟集成）
+1. 微信企业支付集成（五分钟集成）
 
 [三十、spring-boot2-alipay](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-alipay)
 
-介绍Springboot2【支付宝企业支付集成】的用法：
+介绍Springboot2【支付宝企业支付集成（五分钟集成）】的用法：
 
-1. 支付宝企业支付集成
+1. 支付宝企业支付集成（五分钟集成）
 
 [三十一、spring-boot2-crawler](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-crawler)
 
