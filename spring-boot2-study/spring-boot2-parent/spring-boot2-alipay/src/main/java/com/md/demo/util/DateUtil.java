@@ -14,10 +14,6 @@ import org.apache.commons.lang.time.DateUtils;
 /**
  * 日期工具类
  */
-/**
- * @author CJS
- *
- */
 public final class DateUtil {
 
 	public static final int DATE_NUM = 0;
@@ -626,7 +622,7 @@ public final class DateUtil {
 //		System.out.println(DateUtil.getCurrentDateTimeMinutesSecond(-1440));
 //		System.out.println(DateUtil.getCurrentDateTimeMinutesSecond(0));
 //		System.out.println(DateUtil.getCurrentDateTimeSecond(-5));
-		
+
 		System.out.println(getStamp());
 	}
 }
