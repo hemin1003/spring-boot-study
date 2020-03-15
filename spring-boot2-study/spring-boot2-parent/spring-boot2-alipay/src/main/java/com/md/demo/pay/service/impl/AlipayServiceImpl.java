@@ -46,15 +46,15 @@ public class AlipayServiceImpl implements IAlipayService {
 				int flag = AliPayServiceUtils.query(orderId);
 				if (flag == 0) {
 					log.info("之前已经打款成功，直接更新状态即可。");
-					
-					//TODO 直接更新订单桩体
+
+					// TODO 直接更新订单桩体
 //					this.updateHttWithdrawHis(objInfo);
 
-				// 2. 不存在此订单数据，则打款
+					// 2. 不存在此订单数据，则打款
 				} else if (flag == 4) {
 					log.info("开始真正打款，然后更新状态。");
 					int result = AliPayServiceUtils.transfer(orderId, account, amount, name, objInfo);
-					
+
 					if (result == 99) {
 						log.error("打款，后台企业支付宝账户支付余额不足，停止打款", new RuntimeException("余额不足，停止此次打款"));
 						break;
@@ -72,13 +72,13 @@ public class AlipayServiceImpl implements IAlipayService {
 						log.error("打款报错【支付宝】，请检查。" + objInfo.toString(), new RuntimeException("打款报错，跳过该用户打款"));
 						continue;
 					}
-					
+
 					if (result == 0) {
 						// TODO 打款成功处理
 //						this.updateHttWithdrawHis(objInfo);
 
 					} else if (result == 4) {
-						// TODO 打款失败c处理
+						// TODO 打款失败处理
 //						this.httWithdrawHisService.failProcess(objInfo);
 					}
 				}
