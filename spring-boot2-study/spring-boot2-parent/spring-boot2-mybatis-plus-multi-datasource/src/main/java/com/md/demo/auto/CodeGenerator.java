@@ -48,10 +48,10 @@ public class CodeGenerator {
 
 		// 数据源配置
 		DataSourceConfig dsc = new DataSourceConfig();
-		dsc.setUrl("jdbc:mysql://129.204.84.215:33062/sysdb?useUnicode=true&useSSL=false&characterEncoding=utf8");
+		dsc.setUrl("jdbc:mysql://localhost:3306/testdb?useUnicode=true&useSSL=false&characterEncoding=utf8");
 		dsc.setDriverName("com.mysql.jdbc.Driver");
 		dsc.setUsername("root");
-		dsc.setPassword("topone2019");
+		dsc.setPassword("123456");
 		
 		mpg.setDataSource(dsc);
 
