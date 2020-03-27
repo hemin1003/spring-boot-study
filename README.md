@@ -227,6 +227,12 @@
 
 1. 爬虫框架集成
 
+[三十二、spring-boot2-mybatis-plus-multi-datasource](https://github.com/hemin1003/spring-boot-study/tree/master/spring-boot2-study/spring-boot2-parent/spring-boot2-mybatis-plus-multi-datasource)
+
+介绍Springboot2【MybatisPlus框架动态数据源用法】的用法：
+
+1. MybatisPlus框架动态数据源用法：支持多个DB，切换数据源
+
 <br/>
 
 其他内容，持续更新中，敬请期待

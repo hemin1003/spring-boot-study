@@ -1,0 +1,18 @@
+spring:
+   datasource:
+      dynamic:
+         primary: master #设置默认的数据源或者数据源组，默认值即为master
+         #如果你只是单数据源，则只需要注释掉slave相关配置就好了，这里为了方便演示master与slave保持相同
+         datasource:
+            master:
+               driverClassName: com.mysql.jdbc.Driver
+               url: jdbc:mysql://localhost:33061/testdb?useUnicode=true&autoReconnect=true&characterEncoding=UTF-8&allowMultiQueries=true&useSSL=false
+               username: root
+               password: 123456
+            slave_1:
+               driverClassName: com.mysql.jdbc.Driver
+               url: jdbc:mysql://localhost:33062/testdb?useUnicode=true&autoReconnect=true&characterEncoding=UTF-8&allowMultiQueries=true&useSSL=false
+               username: root
+               password: 123456
+server:
+   port: 9090

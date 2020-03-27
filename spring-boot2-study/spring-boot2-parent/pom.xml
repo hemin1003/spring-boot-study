@@ -62,6 +62,8 @@
 		<module>spring-boot2-wechat-pay</module>
 		<module>spring-boot2-alipay</module>
 		<module>spring-boot2-crawler</module>
+		
+		<module>spring-boot2-mybatis-plus-multi-datasource</module>
 	</modules>
 
 	<parent>
